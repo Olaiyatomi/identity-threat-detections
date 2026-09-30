@@ -1,0 +1,2589 @@
+[
+ {
+  "Timestamp": "-2d",
+  "TimeGenerated": "-2d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-2-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-2-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-2-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3d",
+  "TimeGenerated": "-3d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-3-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-3-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-3-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4d",
+  "TimeGenerated": "-4d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-4-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-4-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-4-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-5d",
+  "TimeGenerated": "-5d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-5-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-5-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-5-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-6d",
+  "TimeGenerated": "-6d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-6-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-6-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-6-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-7d",
+  "TimeGenerated": "-7d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-7-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-7-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-7-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-8d",
+  "TimeGenerated": "-8d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-8-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-8-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-8-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-9d",
+  "TimeGenerated": "-9d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-9-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-9-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-9-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-10d",
+  "TimeGenerated": "-10d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-10-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-10-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-10-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-11d",
+  "TimeGenerated": "-11d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-11-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-11-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-11-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-12d",
+  "TimeGenerated": "-12d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-12-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-12-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-12-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-13d",
+  "TimeGenerated": "-13d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-13-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-13-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-13-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-14d",
+  "TimeGenerated": "-14d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "ledger-14-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "ledger-14-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/ledger-14-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4h",
+  "TimeGenerated": "-4h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Fiona Walsh",
+  "AccountObjectId": "fion0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "close-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-10.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-10.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-11.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-11.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-12.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-12.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-13.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-13.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-14.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-14.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-15.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-15.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-16.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-16.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-17.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-17.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-18.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-18.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-19.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-19.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-20.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-20.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-21.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-21.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-22.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-22.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-23.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-23.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-24.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-24.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-25.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-25.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-26.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-26.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-27.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-27.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-28.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-28.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "close-29.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/close-29.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Oscar Lee",
+  "AccountObjectId": "osca0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "notes-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-0.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-1.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-2.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-3.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-4.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-5.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-5.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-6.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-6.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-7.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-7.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-8.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-8.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-9.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-9.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-10.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-10.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-11.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-11.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-12.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-12.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-13.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-13.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-14.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-14.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-15.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-15.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-16.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-16.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-17.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-17.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-18.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-18.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-19.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-19.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-20.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-20.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-21.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-21.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-22.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-22.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-23.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-23.docx",
+      "Action": "Read"
+     },
+     {
+      "Name": "notes-24.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/team/notes-24.docx",
+      "Action": "Read"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2h",
+  "TimeGenerated": "-2h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Paul Roy",
+  "AccountObjectId": "paul0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "plan-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-5.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-5.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-6.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-6.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-7.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-7.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-8.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-8.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "plan-9.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/ops/plan-9.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-1h",
+  "TimeGenerated": "-1h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2h",
+  "TimeGenerated": "-2h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4h",
+  "TimeGenerated": "-4h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-5h",
+  "TimeGenerated": "-5h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-6h",
+  "TimeGenerated": "-6h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-7h",
+  "TimeGenerated": "-7h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-8h",
+  "TimeGenerated": "-8h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-9h",
+  "TimeGenerated": "-9h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-10h",
+  "TimeGenerated": "-10h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Quinn Das",
+  "AccountObjectId": "quin0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "policy-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "policy-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/legal/policy-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ }
+]

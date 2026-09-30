@@ -1,0 +1,60 @@
+id: ITD-013
+title: Copilot used to pull an unusual number of sensitivity-labelled files
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Counts the distinct sensitivity-labelled files Microsoft 365 Copilot read
+  for each user in the last day and compares it with that user's own 14-day
+  daily average. Copilot can reach everything the user can, so an insider or
+  an attacker in a stolen account can harvest confidential content just by
+  asking questions, without the mass downloads older detections look for.
+  Fires at 20 or more labelled files when that is at least five times the
+  user's normal, or when the user has no history at all.
+severity: High
+attack:
+  - technique: T1213.002
+    tactic: collection
+atlas:
+  - technique: AML.T0057
+    tactic: Exfiltration
+data_sources:
+  - CloudAppEvents
+query: query.kql
+schedule:
+  frequency: 1d
+  lookback: 15d
+tuning:
+  LabelledFiles: "20 distinct labelled files per day as a floor."
+  ratio: "5x the user's average. avg() only counts active days, which makes the rule conservative. Use sum over 14.0 for a calendar-day average."
+false_positives:
+  - Month-end or audit work where a user legitimately reviews far more confidential material than usual.
+  - New starters or role changes, who have no baseline yet.
+triage:
+  - Which sites and labels were involved? HR, finance, legal or executive sites are the most sensitive.
+  - Is the user leaving, recently disciplined, or in a role that would not normally need this content?
+  - Check the account's sign-ins for new IPs or countries. Harvesting from an unfamiliar location points to account takeover.
+  - Look for what happened next, such as mail to personal addresses, file shares or downloads, and review permissions on the sites involved.
+references:
+  - https://attack.mitre.org/techniques/T1213/002/
+  - https://atlas.mitre.org/techniques/AML.T0057
+  - https://learn.microsoft.com/en-us/purview/audit-copilot
+tests:
+  - name: 12x spike over baseline and heavy use with no history both fire
+    fixtures:
+      CloudAppEvents: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - AccountDisplayName: Mallory Hart
+          LabelledFiles: 25
+          AvgDailyLabelledFiles: 2
+          BaselineRatio: 12.5
+        - AccountDisplayName: Nina Patel
+          LabelledFiles: 22
+          AvgDailyLabelledFiles: 0
+  - name: heavy normal user, unlabelled files, low volume and repeated reads stay quiet
+    fixtures:
+      CloudAppEvents: tests/benign.json
+    expect:
+      rows: 0

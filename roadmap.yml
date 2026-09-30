@@ -1,11 +1,6 @@
 # Planned detections. tools/coverage.py shows these as "planned" on the coverage maps.
 # Move an entry into detections/ once it has a query, fixtures and passing tests.
 planned:
-  - title: Copilot pulls many sensitivity-labelled files in a short time
-    attack:
-      - {technique: T1213.002, tactic: collection}
-    atlas:
-      - {technique: AML.T0057, tactic: Exfiltration}
   - title: Azure OpenAI keys listed by an unusual identity (LLMjacking)
     attack:
       - {technique: T1496.004, tactic: impact}

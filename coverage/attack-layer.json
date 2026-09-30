@@ -51,8 +51,8 @@
     {
       "techniqueID": "T1213.002",
       "tactic": "collection",
-      "score": 20,
-      "comment": "planned Copilot pulls many sensitivity-labelled files in a short time (planned)",
+      "score": 60,
+      "comment": "ITD-013 Copilot used to pull an unusual number of sensitivity-labelled files (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

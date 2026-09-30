@@ -1,0 +1,785 @@
+[
+ {
+  "Timestamp": "-2d",
+  "TimeGenerated": "-2d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-2-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-2-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-2-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-2-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3d",
+  "TimeGenerated": "-3d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-3-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-3-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-3-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-3-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4d",
+  "TimeGenerated": "-4d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-4-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-4-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-4-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-4-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-5d",
+  "TimeGenerated": "-5d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-5-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-5-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-5-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-5-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-6d",
+  "TimeGenerated": "-6d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-6-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-6-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-6-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-6-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-7d",
+  "TimeGenerated": "-7d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-7-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-7-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-7-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-7-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-8d",
+  "TimeGenerated": "-8d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-8-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-8-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-8-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-8-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-9d",
+  "TimeGenerated": "-9d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-9-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-9-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-9-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-9-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-10d",
+  "TimeGenerated": "-10d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-10-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-10-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-10-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-10-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-11d",
+  "TimeGenerated": "-11d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-11-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-11-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-11-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-11-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-12d",
+  "TimeGenerated": "-12d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-12-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-12-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-12-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-12-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-13d",
+  "TimeGenerated": "-13d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-13-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-13-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-13-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-13-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-14d",
+  "TimeGenerated": "-14d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "hist-14-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-14-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "hist-14-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/hist-14-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "merger-0.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-0.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-1.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-1.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-2.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-2.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-3.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-3.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-4.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-4.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-5.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-5.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-6.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-6.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-7.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-7.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-8.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-8.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-9.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-9.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-10.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-10.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-11.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-11.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-12.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-12.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-13.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-13.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "merger-14.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/exec/merger-14.docx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2h",
+  "TimeGenerated": "-2h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Mallory Hart",
+  "AccountObjectId": "mall0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "salaries-0.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-0.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-1.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-1.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-2.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-2.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-3.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-3.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-4.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-4.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-5.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-5.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-6.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-6.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-7.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-7.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-8.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-8.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "salaries-9.xlsx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/salaries-9.xlsx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-1h",
+  "TimeGenerated": "-1h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Nina Patel",
+  "AccountObjectId": "nina0000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "CopilotEventData": {
+    "AppHost": "BizChat",
+    "AccessedResources": [
+     {
+      "Name": "board-0.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-0.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-1.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-1.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-2.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-2.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-3.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-3.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-4.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-4.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-5.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-5.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-6.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-6.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-7.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-7.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-8.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-8.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-9.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-9.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-10.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-10.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-11.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-11.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-12.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-12.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-13.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-13.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-14.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-14.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-15.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-15.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-16.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-16.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-17.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-17.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-18.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-18.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-19.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-19.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-20.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-20.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     },
+     {
+      "Name": "board-21.pptx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/board/board-21.pptx",
+      "Action": "Read",
+      "SensitivityLabelId": "f42bb6f3-0000-4a5b-9c8d-000000000001"
+     }
+    ]
+   }
+  }
+ }
+]

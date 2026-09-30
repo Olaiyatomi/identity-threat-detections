@@ -1,0 +1,47 @@
+// ITD-013 Copilot used to pull an unusual number of sensitivity-labelled files
+// ATT&CK T1213.002 Sharepoint | MITRE ATLAS AML.T0057 LLM Data Leakage
+let Baseline =
+    CloudAppEvents
+    | where Timestamp between (ago(15d) .. ago(1d))
+    | where ActionType == "CopilotInteraction"
+    | mv-expand Resource = RawEventData.CopilotEventData.AccessedResources
+    | where isnotempty(tostring(Resource.SensitivityLabelId))
+    | summarize DailyLabelledFiles = dcount(tostring(Resource.Name))
+        by AccountObjectId, Day = startofday(Timestamp)
+    | summarize AvgDailyLabelledFiles = avg(DailyLabelledFiles)
+        by AccountObjectId;
+
+let CurrentActivity =
+    CloudAppEvents
+    | where Timestamp >= ago(1d)
+    | where ActionType == "CopilotInteraction"
+    | mv-expand Resource = RawEventData.CopilotEventData.AccessedResources
+    | where isnotempty(tostring(Resource.SensitivityLabelId))
+    | summarize
+        LabelledFiles = dcount(tostring(Resource.Name)),
+        Sites = make_set(tostring(Resource.SiteUrl), 10),
+        FirstSeen = min(Timestamp),
+        LastSeen = max(Timestamp)
+        by AccountDisplayName, AccountObjectId;
+
+CurrentActivity
+| where LabelledFiles >= 20
+| join kind=leftouter Baseline on AccountObjectId
+| extend AvgDailyLabelledFiles = coalesce(AvgDailyLabelledFiles, 0.0)
+| where AvgDailyLabelledFiles == 0
+    or LabelledFiles >= 5 * AvgDailyLabelledFiles
+| extend BaselineRatio = iff(
+    AvgDailyLabelledFiles > 0,
+    round(LabelledFiles / AvgDailyLabelledFiles, 1),
+    real(null)
+)
+| project
+    AccountDisplayName,
+    AccountObjectId,
+    LabelledFiles,
+    AvgDailyLabelledFiles,
+    BaselineRatio,
+    Sites,
+    FirstSeen,
+    LastSeen
+| order by LabelledFiles desc

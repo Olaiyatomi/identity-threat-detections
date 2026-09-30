@@ -1,0 +1,141 @@
+[
+ {
+  "Timestamp": "-5h",
+  "TimeGenerated": "-5h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Erin Chen",
+  "AccountObjectId": "eri00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Team Handbook.pdf",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/Handbook.pdf",
+      "Action": "Read",
+      "XPIADetected": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4h",
+  "TimeGenerated": "-4h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Frank Ortiz",
+  "AccountObjectId": "fra00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Teams",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Team Handbook.pdf",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/Handbook.pdf",
+      "Action": "Read"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "FileAccessed",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Grace Kim",
+  "AccountObjectId": "gra00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2d",
+  "TimeGenerated": "-2d",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Erin Chen",
+  "AccountObjectId": "eri00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ }
+]

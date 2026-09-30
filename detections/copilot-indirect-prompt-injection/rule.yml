@@ -1,0 +1,55 @@
+id: ITD-012
+title: Copilot read a file or email carrying a hidden prompt injection
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Groups Microsoft 365 Copilot interactions by any file, email or page that
+  Microsoft flagged as containing a cross-prompt injection (XPIADetected on
+  AccessedResources). In indirect prompt injection the attacker hides
+  instructions inside content the victim never reads closely, then Copilot
+  reads it while summarizing and may follow those instructions. Grouping by
+  the poisoned resource shows how far a campaign reached and exactly which
+  item to remove.
+severity: High
+attack: []
+atlas:
+  - technique: AML.T0051.001
+    tactic: Execution
+data_sources:
+  - CloudAppEvents
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  AffectedUsers: "Any hit is worth a look. Several users on one resource usually means a deliberate campaign."
+false_positives:
+  - Security awareness or red team content that contains sample injection text on purpose.
+  - Research documents that quote prompt injection examples.
+triage:
+  - Open the flagged resource in a safe way and find the hidden text (white font, comments, alt text, metadata).
+  - Who created or sent it? For email, check the sender and whether it came from outside. For files, check who uploaded or last edited it.
+  - What did Copilot do for each affected user afterward? Look for links in responses, sent mail or file shares right after.
+  - Remove or quarantine the item, block the sender or domain, and warn affected users not to act on that Copilot response.
+references:
+  - https://atlas.mitre.org/techniques/AML.T0051.001
+  - https://learn.microsoft.com/en-us/purview/audit-copilot
+tests:
+  - name: poisoned document hit by three users and poisoned email hit by one both fire
+    fixtures:
+      CloudAppEvents: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - ResourceName: Q3 Vendor Payment Update.docx
+          AffectedUsers: 3
+          Apps: ["Word", "Outlook", "Teams"]
+        - ResourceName: "Re: Invoice #4471"
+          ResourceType: Email
+          AffectedUsers: 1
+  - name: clean files, missing flag, non-Copilot access and old hits stay quiet
+    fixtures:
+      CloudAppEvents: tests/benign.json
+    expect:
+      rows: 0

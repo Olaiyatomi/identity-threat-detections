@@ -1,0 +1,29 @@
+// ITD-012 Copilot read a file or email carrying a hidden prompt injection (XPIA)
+// MITRE ATLAS AML.T0051.001 LLM Prompt Injection: Indirect
+CloudAppEvents
+| where Timestamp >= ago(1d)
+| where ActionType == "CopilotInteraction"
+| mv-expand Resource = RawEventData.CopilotEventData.AccessedResources
+| where tobool(Resource.XPIADetected) == true
+| extend
+    ResourceName = tostring(Resource.Name),
+    ResourceType = tostring(Resource.Type),
+    SiteUrl = tostring(Resource.SiteUrl),
+    AppHost = tostring(RawEventData.CopilotEventData.AppHost)
+| summarize
+    AffectedUsers = dcount(AccountObjectId),
+    Users = make_set(AccountDisplayName),
+    Apps = make_set(AppHost),
+    FirstSeen = min(Timestamp),
+    LastSeen = max(Timestamp)
+    by ResourceName, ResourceType, SiteUrl
+| project
+    ResourceName,
+    ResourceType,
+    SiteUrl,
+    AffectedUsers,
+    Users,
+    Apps,
+    FirstSeen,
+    LastSeen
+| order by AffectedUsers desc

@@ -27,6 +27,6 @@ Mapped against [MITRE ATLAS](https://atlas.mitre.org/).
 | Technique | Tactic | Detections |
 |---|---|---|
 | AML.T0034 Cost Harvesting | Impact | planned: Azure OpenAI keys listed by an unusual identity (LLMjacking) |
-| AML.T0051.001 LLM Prompt Injection: Indirect | Execution | planned: Copilot read a file or email carrying a hidden prompt injection |
+| AML.T0051.001 LLM Prompt Injection: Indirect | Execution | `ITD-012` Copilot read a file or email carrying a hidden prompt injection (experimental) |
 | AML.T0054 LLM Jailbreak | Defense Evasion | `ITD-011` Microsoft 365 Copilot jailbreak attempts by a user (experimental) |
 | AML.T0057 LLM Data Leakage | Exfiltration | planned: Copilot pulls many sensitivity-labelled files in a short time |

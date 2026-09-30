@@ -31,6 +31,7 @@ mapped to [MITRE ATLAS](https://atlas.mitre.org/) as well as ATT&CK.
 | ITD-009 | [New MFA method registered soon after a risky sign-in](detections/mfa-registered-after-risky-signin/) | T1098.005 | experimental |
 | ITD-010 | [AiTM session token replay across countries](detections/aitm-session-replay/) | T1539, T1550.001 | experimental |
 | ITD-011 | [Microsoft 365 Copilot jailbreak attempts by a user](detections/copilot-jailbreak/) | ATLAS AML.T0054 | experimental |
+| ITD-012 | [Copilot read a file or email carrying a hidden prompt injection](detections/copilot-indirect-prompt-injection/) | ATLAS AML.T0051.001 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

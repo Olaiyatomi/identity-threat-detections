@@ -1,0 +1,184 @@
+[
+ {
+  "Timestamp": "-6h",
+  "TimeGenerated": "-6h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Alice Tremblay",
+  "AccountObjectId": "ali00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     },
+     {
+      "Name": "Team Handbook.pdf",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/hr/Handbook.pdf",
+      "Action": "Read",
+      "XPIADetected": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-5h",
+  "TimeGenerated": "-5h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Bob Singh",
+  "AccountObjectId": "bob00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Outlook",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4h",
+  "TimeGenerated": "-4h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Carol Nguyen",
+  "AccountObjectId": "car00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Alice Tremblay",
+  "AccountObjectId": "ali00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Teams",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Q3 Vendor Payment Update.docx",
+      "Type": "File",
+      "SiteUrl": "https://contoso.sharepoint.com/sites/finance/Shared Documents/Q3 Vendor Payment Update.docx",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2h",
+  "TimeGenerated": "-2h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Dan Moreau",
+  "AccountObjectId": "dan00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.5",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Outlook",
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ],
+    "AccessedResources": [
+     {
+      "Name": "Re: Invoice #4471",
+      "Type": "Email",
+      "SiteUrl": "",
+      "Action": "Read",
+      "XPIADetected": true
+     }
+    ]
+   }
+  }
+ }
+]

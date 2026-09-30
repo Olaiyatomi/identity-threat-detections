@@ -1,0 +1,154 @@
+[
+ {
+  "TimeGenerated": "-3h",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "success",
+  "LoggedByService": "PIM",
+  "CorrelationId": "r-ok-1",
+  "InitiatedBy": {
+   "app": {
+    "displayName": "MS-PIM",
+    "servicePrincipalId": "9f1c2d3e-0000-4a5b-8c7d-6e5f4a3b2c1d"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "it.admin@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Global Administrator\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-1h",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "r-ok-2",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "carol@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Reports Reader\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-30m",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "failure",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "r-ok-3",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "svc-backup2@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Global Administrator\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-3d",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "r-ok-4",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "svc-old@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Global Administrator\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,51 @@
+id: ITD-004
+title: Privileged role assigned directly outside PIM
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a successful, direct assignment of a high-privilege Entra ID role
+  (Global Administrator, Privileged Role Administrator and others) that did
+  not come through Privileged Identity Management. Attackers who reach an
+  admin account often grant a permanent role to themselves or a backdoor
+  account, and skipping PIM avoids approval and time limits.
+severity: High
+attack:
+  - technique: T1098.003
+    tactic: privilege-escalation
+data_sources:
+  - AuditLogs
+query: query.kql
+schedule:
+  frequency: 15m
+  lookback: 1d
+tuning:
+  RoleName: "Extend the role list with any role your tenant treats as privileged, for example Conditional Access Administrator or Intune Administrator."
+false_positives:
+  - Break-glass or emergency access procedures where an admin assigns a role directly during an outage.
+  - Tenants that do not use PIM at all, where every assignment is direct. Tune or scope this rule there.
+triage:
+  - Was this change expected? Check for a change ticket or ask the admin who made it through a known channel.
+  - Is the target a new or rarely used account, a service account, or the same person who made the change (self-assignment)?
+  - Review the initiating admin's sign-ins around the time of the change for unusual IPs, devices or MFA prompts.
+  - If unexpected, remove the role, revoke both accounts' sessions and review what the target did with the role.
+references:
+  - https://attack.mitre.org/techniques/T1098/003/
+  - https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure
+tests:
+  - name: direct Global Admin grant and self-assigned Security Admin both fire
+    fixtures:
+      AuditLogs: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - TargetUser: svc-backup2@contoso.ca
+          RoleName: Global Administrator
+          InitiatedByUser: it.admin@contoso.ca
+        - TargetUser: dan@contoso.ca
+          RoleName: Security Administrator
+  - name: PIM activation, low-privilege role, failed change and old change stay quiet
+    fixtures:
+      AuditLogs: tests/benign.json
+    expect:
+      rows: 0

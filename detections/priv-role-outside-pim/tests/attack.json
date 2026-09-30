@@ -1,0 +1,78 @@
+[
+ {
+  "TimeGenerated": "-2h",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "r-atk-1",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "svc-backup2@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Global Administrator\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-40m",
+  "OperationName": "Add member to role",
+  "Category": "RoleManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "r-atk-2",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "dan@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "dan@contoso.ca",
+    "id": "5a6b7c8d-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "Role.ObjectID",
+      "oldValue": null,
+      "newValue": "\"a1b2c3d4-0000-1111-2222-333344445555\""
+     },
+     {
+      "displayName": "Role.DisplayName",
+      "oldValue": null,
+      "newValue": "\"Security Administrator\""
+     },
+     {
+      "displayName": "Role.TemplateId",
+      "oldValue": null,
+      "newValue": "\"62e90394-69f5-4237-9190-012177145e10\""
+     }
+    ]
+   }
+  ]
+ }
+]

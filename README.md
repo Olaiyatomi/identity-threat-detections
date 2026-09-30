@@ -20,6 +20,7 @@ test detections for that layer.
 | ITD-001 | [MFA fatigue burst with optional approval](detections/mfa-fatigue/) | T1621 | experimental |
 | ITD-002 | [OAuth consent grants high-risk delegated permissions](detections/illicit-oauth-consent/) | T1528 | experimental |
 | ITD-003 | [Password spray from a single IP against many accounts](detections/password-spray/) | T1110.003 | experimental |
+| ITD-004 | [Privileged role assigned directly outside PIM](detections/priv-role-outside-pim/) | T1098.003 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

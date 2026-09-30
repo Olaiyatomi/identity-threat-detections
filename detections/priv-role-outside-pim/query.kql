@@ -1,0 +1,27 @@
+// ITD-004 Privileged role assigned directly, outside PIM
+// ATT&CK T1098.003 Additional Cloud Roles
+AuditLogs
+| where TimeGenerated >= ago(1d)
+| where OperationName == "Add member to role"
+| where Result =~ "success"
+| where tostring(InitiatedBy.app.displayName) != "MS-PIM"
+| extend
+    InitiatedByUser = tostring(InitiatedBy.user.userPrincipalName),
+    TargetUser = tostring(TargetResources[0].userPrincipalName)
+| mv-expand ModifiedProperty = TargetResources[0].modifiedProperties
+| where tostring(ModifiedProperty.displayName) == "Role.DisplayName"
+| extend RoleName = trim('"', tostring(ModifiedProperty.newValue))
+| where RoleName in (
+    "Global Administrator",
+    "Privileged Role Administrator",
+    "Security Administrator",
+    "Exchange Administrator",
+    "Application Administrator",
+    "User Administrator"
+)
+| project
+    TimeGenerated,
+    InitiatedByUser,
+    TargetUser,
+    RoleName
+| order by TimeGenerated desc

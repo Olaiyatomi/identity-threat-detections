@@ -8,9 +8,6 @@ planned:
   - title: Device code phishing sign-in
     attack:
       - {technique: T1566.002, tactic: initial-access}
-  - title: Privileged role assigned outside PIM
-    attack:
-      - {technique: T1098.003, tactic: privilege-escalation}
   - title: New secret or certificate added to a service principal
     attack:
       - {technique: T1098.001, tactic: persistence}

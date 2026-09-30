@@ -19,8 +19,8 @@
     {
       "techniqueID": "T1098.003",
       "tactic": "privilege-escalation",
-      "score": 20,
-      "comment": "planned Privileged role assigned outside PIM (planned)",
+      "score": 60,
+      "comment": "ITD-004 Privileged role assigned directly outside PIM (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

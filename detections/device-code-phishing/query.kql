@@ -1,0 +1,20 @@
+// ITD-008 Device code sign-in by a user with no device code history
+// ATT&CK T1566.002 Spearphishing Link (device code phishing)
+let Baseline =
+    SigninLogs
+    | where TimeGenerated between (ago(14d) .. ago(1h))
+    | where ResultType == "0"
+    | where AuthenticationProtocol == "deviceCode"
+    | distinct UserPrincipalName;
+SigninLogs
+| where TimeGenerated >= ago(1h)
+| where ResultType == "0"
+| where AuthenticationProtocol == "deviceCode"
+| join kind=leftanti Baseline on UserPrincipalName
+| project
+    TimeGenerated,
+    UserPrincipalName,
+    IPAddress,
+    AppDisplayName,
+    Location = tostring(LocationDetails.countryOrRegion)
+| order by TimeGenerated desc

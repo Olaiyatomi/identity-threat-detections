@@ -83,8 +83,8 @@
     {
       "techniqueID": "T1566.002",
       "tactic": "initial-access",
-      "score": 20,
-      "comment": "planned Device code phishing sign-in (planned)",
+      "score": 60,
+      "comment": "ITD-008 Device code sign-in by a user with no device code history (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

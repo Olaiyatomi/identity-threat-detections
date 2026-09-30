@@ -1,0 +1,49 @@
+id: ITD-008
+title: Device code sign-in by a user with no device code history
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a successful device code flow sign-in in the last hour for a user who
+  has not used device code in the previous 14 days. In device code phishing
+  the attacker starts the flow and sends the code to the victim, who signs in
+  and completes MFA themselves, handing the attacker's session a valid token.
+  Most users never use device code, so a first-time use is a strong signal.
+severity: High
+attack:
+  - technique: T1566.002
+    tactic: initial-access
+data_sources:
+  - SigninLogs
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 14d
+tuning:
+  Baseline: "14 days of history. Longer baselines cut noise from users who use Azure CLI or meeting-room devices only occasionally."
+false_positives:
+  - A user signing in to Azure CLI, PowerShell or a meeting-room device with device code for the first time.
+  - New starters, who have no history yet.
+triage:
+  - Ask the user whether they typed a code at microsoft.com/devicelogin, and who sent it to them.
+  - Compare the sign-in IP and location with where the user normally works. The token goes to the attacker, so later activity from new IPs matters.
+  - Look for the lure in email (subjects like "shared document", "Teams meeting" with a code) around the sign-in time.
+  - If phished, revoke the user's refresh tokens and sessions and consider blocking device code flow with Conditional Access for users who do not need it.
+references:
+  - https://attack.mitre.org/techniques/T1566/002/
+  - https://learn.microsoft.com/en-us/entra/identity/conditional-access/policy-block-authentication-flows
+tests:
+  - name: first-ever device code sign-in fires, known meeting-room device does not
+    fixtures:
+      SigninLogs: tests/attack.json
+    expect:
+      rows: 1
+      match:
+        - UserPrincipalName: alice@contoso.ca
+          IPAddress: 45.155.205.9
+          Location: NL
+  - name: known device code user, failed attempt, normal sign-in and older use stay quiet
+    fixtures:
+      SigninLogs: tests/benign.json
+    expect:
+      rows: 0

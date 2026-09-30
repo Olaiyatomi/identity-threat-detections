@@ -1,0 +1,67 @@
+[
+ {
+  "TimeGenerated": "-3d",
+  "UserPrincipalName": "boardroom-tv@contoso.ca",
+  "IPAddress": "142.116.20.40",
+  "AppDisplayName": "Microsoft Teams Rooms",
+  "AuthenticationProtocol": "deviceCode",
+  "ResultType": "0",
+  "ClientAppUsed": "Mobile Apps and Desktop clients",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-6d",
+  "UserPrincipalName": "boardroom-tv@contoso.ca",
+  "IPAddress": "142.116.20.40",
+  "AppDisplayName": "Microsoft Teams Rooms",
+  "AuthenticationProtocol": "deviceCode",
+  "ResultType": "0",
+  "ClientAppUsed": "Mobile Apps and Desktop clients",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-10d",
+  "UserPrincipalName": "boardroom-tv@contoso.ca",
+  "IPAddress": "142.116.20.40",
+  "AppDisplayName": "Microsoft Teams Rooms",
+  "AuthenticationProtocol": "deviceCode",
+  "ResultType": "0",
+  "ClientAppUsed": "Mobile Apps and Desktop clients",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-20m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Microsoft Office",
+  "AuthenticationProtocol": "deviceCode",
+  "ResultType": "0",
+  "ClientAppUsed": "Mobile Apps and Desktop clients",
+  "LocationDetails": {
+   "countryOrRegion": "NL",
+   "city": "Amsterdam"
+  }
+ },
+ {
+  "TimeGenerated": "-12m",
+  "UserPrincipalName": "boardroom-tv@contoso.ca",
+  "IPAddress": "142.116.20.40",
+  "AppDisplayName": "Microsoft Teams Rooms",
+  "AuthenticationProtocol": "deviceCode",
+  "ResultType": "0",
+  "ClientAppUsed": "Mobile Apps and Desktop clients",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "_note": "Subset of the Microsoft Sentinel AuditLogs schema. Add columns as detections need them.",
+  "columns": {
+    "TimeGenerated": "datetime",
+    "OperationName": "string",
+    "Category": "string",
+    "Result": "string",
+    "LoggedByService": "string",
+    "InitiatedBy": "dynamic",
+    "TargetResources": "dynamic",
+    "AdditionalDetails": "dynamic",
+    "CorrelationId": "string"
+  }
+}

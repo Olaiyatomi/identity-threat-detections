@@ -1,0 +1,56 @@
+id: ITD-001
+title: MFA fatigue burst with optional approval
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a burst of failed or ignored MFA prompts for one user (Entra ID result
+  500121), which is what push bombing looks like when an attacker already has
+  the password. Severity goes to High when the same user approves an MFA
+  prompt within 30 minutes of the burst, because that usually means the user
+  gave in.
+severity: Medium
+attack:
+  - technique: T1621
+    tactic: credential-access
+data_sources:
+  - SigninLogs
+query: query.kql
+schedule:
+  frequency: 15m
+  lookback: 2h
+tuning:
+  minDenials: "5 prompts per burst. Lower to 3 for admins or high-value accounts."
+  burstGap: "5 minutes between prompts. Attack tooling usually retries faster than this."
+false_positives:
+  - A user with a dead phone battery or a broken authenticator app retrying sign-in many times.
+  - A misconfigured client that loops on interactive sign-in.
+triage:
+  - Were the denied prompts from an IP, country or ASN the user normally signs in from? Compare DenialIPs to the user's last 30 days.
+  - If ApprovedAfterBurst is true, treat the account as compromised until proven otherwise. Revoke sessions and reset the password.
+  - Call the user through a known channel, not email. Ask whether they were signing in and whether they approved a prompt.
+  - Check whether a new MFA method or device was registered after the approval (AuditLogs, "User registered security info").
+  - Move the user to number matching or phishing-resistant MFA if they are not already on it.
+references:
+  - https://attack.mitre.org/techniques/T1621/
+  - https://learn.microsoft.com/en-us/entra/identity-platform/reference-error-codes
+tests:
+  - name: push bombing followed by approval and a held-firm user both fire
+    fixtures:
+      SigninLogs: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - UserPrincipalName: alice@contoso.ca
+          DenialCount: 7
+          ApprovedAfterBurst: true
+          Severity: High
+        - UserPrincipalName: dan@contoso.ca
+          DenialCount: 6
+          ApprovedAfterBurst: false
+          Severity: Medium
+  - name: missed prompts, slow retries and normal MFA stay quiet
+    fixtures:
+      SigninLogs: tests/benign.json
+    expect:
+      rows: 0

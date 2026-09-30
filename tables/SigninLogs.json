@@ -1,0 +1,22 @@
+{
+  "_note": "Subset of the Microsoft Sentinel SigninLogs schema. Add columns as detections need them.",
+  "columns": {
+    "TimeGenerated": "datetime",
+    "UserPrincipalName": "string",
+    "UserId": "string",
+    "IPAddress": "string",
+    "AppDisplayName": "string",
+    "AppId": "string",
+    "ClientAppUsed": "string",
+    "ResultType": "string",
+    "ResultDescription": "string",
+    "AuthenticationRequirement": "string",
+    "AuthenticationProtocol": "string",
+    "ConditionalAccessStatus": "string",
+    "RiskLevelDuringSignIn": "string",
+    "UserAgent": "string",
+    "LocationDetails": "dynamic",
+    "DeviceDetail": "dynamic",
+    "CorrelationId": "string"
+  }
+}

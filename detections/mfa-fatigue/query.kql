@@ -1,0 +1,36 @@
+// ITD-001 MFA fatigue: burst of denied or ignored MFA prompts, optionally followed by an approval
+// ATT&CK T1621 Multi-Factor Authentication Request Generation
+let lookback = 2h;
+let burstGap = 5m;          // denials no more than this far apart count as one burst
+let maxBurst = 1h;          // cap on how long one burst can run
+let minDenials = 5;         // prompts in a burst before we care
+let approvalWindow = 30m;   // an approval this soon after the burst raises severity
+let Denials =
+    SigninLogs
+    | where TimeGenerated > ago(lookback)
+    | where ResultType == "500121"   // authentication failed during strong authentication request
+    | sort by UserPrincipalName asc, TimeGenerated asc
+    | extend BurstStart = row_window_session(TimeGenerated, maxBurst, burstGap, UserPrincipalName != prev(UserPrincipalName))
+    | summarize
+        DenialCount = count(),
+        FirstDenial = min(TimeGenerated),
+        LastDenial = max(TimeGenerated),
+        DenialIPs = make_set(IPAddress, 10),
+        Apps = make_set(AppDisplayName, 10)
+        by UserPrincipalName, BurstStart
+    | where DenialCount >= minDenials;
+let Approvals =
+    SigninLogs
+    | where TimeGenerated > ago(lookback)
+    | where ResultType == "0" and AuthenticationRequirement == "multiFactorAuthentication"
+    | project UserPrincipalName, ApprovalTime = TimeGenerated, ApprovalIP = IPAddress;
+Denials
+| join kind=leftouter Approvals on UserPrincipalName
+| extend InWindow = ApprovalTime between (FirstDenial .. (LastDenial + approvalWindow))
+| summarize
+    ApprovedAfterBurst = countif(InWindow) > 0,
+    ApprovalIPs = make_set_if(ApprovalIP, InWindow, 10)
+    by UserPrincipalName, FirstDenial, LastDenial, DenialCount, DenialIPsText = strcat_array(DenialIPs, ","), AppsText = strcat_array(Apps, ",")
+| extend DenialIPs = split(DenialIPsText, ","), Apps = split(AppsText, ",")
+| extend Severity = iff(ApprovedAfterBurst, "High", "Medium")
+| project FirstDenial, LastDenial, UserPrincipalName, DenialCount, DenialIPs, Apps, ApprovedAfterBurst, ApprovalIPs, Severity

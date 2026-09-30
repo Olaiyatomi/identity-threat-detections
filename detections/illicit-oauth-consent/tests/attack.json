@@ -1,0 +1,68 @@
+[
+ {
+  "TimeGenerated": "-3h",
+  "OperationName": "Consent to application",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "c-atk-1",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "alice@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "displayName": "Mail Backup Helper",
+    "id": "7f3c2a10-9b1e-4d2a-8a55-0c1e2f3a4b5c",
+    "type": "ServicePrincipal",
+    "modifiedProperties": [
+     {
+      "displayName": "ConsentContext.IsAdminConsent",
+      "oldValue": null,
+      "newValue": "\"False\""
+     },
+     {
+      "displayName": "ConsentAction.Permissions",
+      "oldValue": null,
+      "newValue": "[] => [[Id: xY97f3c2a, ClientId: 7f3c2a10-9b1e-4d2a-8a55-0c1e2f3a4b5c, PrincipalId: 11111111-2222-3333-4444-555555555555, ResourceId: 00000003-0000-0000-c000-000000000000, ConsentType: Principal, Scope: Mail.ReadWrite Files.ReadWrite.All offline_access User.Read, CreatedDateTime: , LastModifiedDateTime ]]; "
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-20m",
+  "OperationName": "Consent to application",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "c-atk-2",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "142.116.20.9"
+   }
+  },
+  "TargetResources": [
+   {
+    "displayName": "Doc Sync Pro",
+    "id": "2b8e6d44-1c0a-4f7e-9d21-6a7b8c9d0e1f",
+    "type": "ServicePrincipal",
+    "modifiedProperties": [
+     {
+      "displayName": "ConsentContext.IsAdminConsent",
+      "oldValue": null,
+      "newValue": "\"True\""
+     },
+     {
+      "displayName": "ConsentAction.Permissions",
+      "oldValue": null,
+      "newValue": "[] => [[Id: xY92b8e6d, ClientId: 2b8e6d44-1c0a-4f7e-9d21-6a7b8c9d0e1f, PrincipalId: 11111111-2222-3333-4444-555555555555, ResourceId: 00000003-0000-0000-c000-000000000000, ConsentType: AllPrincipals, Scope: Sites.Read.All User.Read, CreatedDateTime: , LastModifiedDateTime ]]; "
+     }
+    ]
+   }
+  ]
+ }
+]

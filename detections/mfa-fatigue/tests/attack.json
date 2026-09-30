@@ -1,0 +1,135 @@
+[
+ {
+  "TimeGenerated": "-40m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-0"
+ },
+ {
+  "TimeGenerated": "-39m20s",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-1"
+ },
+ {
+  "TimeGenerated": "-38m40s",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-2"
+ },
+ {
+  "TimeGenerated": "-38m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-3"
+ },
+ {
+  "TimeGenerated": "-37m20s",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-4"
+ },
+ {
+  "TimeGenerated": "-36m40s",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-5"
+ },
+ {
+  "TimeGenerated": "-36m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "500121",
+  "ResultDescription": "Authentication failed during strong authentication request.",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-6"
+ },
+ {
+  "TimeGenerated": "-33m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "a-ok"
+ },
+ {
+  "TimeGenerated": "-80m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-0"
+ },
+ {
+  "TimeGenerated": "-78m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-1"
+ },
+ {
+  "TimeGenerated": "-76m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-2"
+ },
+ {
+  "TimeGenerated": "-74m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-3"
+ },
+ {
+  "TimeGenerated": "-72m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-4"
+ },
+ {
+  "TimeGenerated": "-70m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "AppDisplayName": "Azure Portal",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "CorrelationId": "d-5"
+ }
+]

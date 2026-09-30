@@ -1,0 +1,35 @@
+// ITD-002 Illicit OAuth consent: a user or admin grants an app high-risk delegated permissions
+// ATT&CK T1528 Steal Application Access Token
+let lookback = 1d;
+// Scopes that let an app read or exfiltrate mail, files or the directory without the password
+let highRiskScopes = dynamic([
+    "Mail.Read", "Mail.ReadWrite", "Mail.Send", "MailboxSettings.ReadWrite",
+    "Files.Read.All", "Files.ReadWrite.All", "Sites.Read.All", "Sites.ReadWrite.All",
+    "Notes.Read.All", "Contacts.Read", "Chat.Read", "EWS.AccessAsUser.All", "full_access_as_user",
+    "Directory.ReadWrite.All", "User.ReadWrite.All", "RoleManagement.ReadWrite.Directory",
+    "Application.ReadWrite.All", "AppRoleAssignment.ReadWrite.All"
+]);
+// Service principal object IDs your organization has already reviewed and approved
+let approvedApps = dynamic([]);
+AuditLogs
+| where TimeGenerated > ago(lookback)
+| where OperationName == "Consent to application"
+| where Result =~ "success"
+| extend
+    AppName = tostring(TargetResources[0].displayName),
+    AppObjectId = tostring(TargetResources[0].id),
+    ConsentingUser = tostring(InitiatedBy.user.userPrincipalName),
+    ConsentingIP = tostring(InitiatedBy.user.ipAddress)
+| where AppObjectId !in (approvedApps)
+| mv-apply Prop = TargetResources[0].modifiedProperties on (
+    where tostring(Prop.displayName) == "ConsentAction.Permissions"
+    | project PermissionText = tostring(Prop.newValue)
+  )
+// newValue looks like: [[Id: ..., ConsentType: Principal, Scope: Mail.Read offline_access User.Read, ...]]
+| extend ScopeText = strcat_array(extract_all(@"Scope:\s*([^,\]]+)", PermissionText), " ")
+| extend GrantedScopes = set_difference(split(ScopeText, " "), dynamic([""]))
+| extend RiskyScopes = set_intersect(GrantedScopes, highRiskScopes)
+| where array_length(RiskyScopes) > 0
+| extend IsTenantWide = PermissionText has "ConsentType: AllPrincipals"
+| extend Severity = iff(IsTenantWide or array_length(RiskyScopes) >= 3, "High", "Medium")
+| project TimeGenerated, ConsentingUser, ConsentingIP, AppName, AppObjectId, IsTenantWide, RiskyScopes, GrantedScopes, Severity, CorrelationId

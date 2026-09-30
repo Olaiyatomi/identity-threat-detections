@@ -1,0 +1,138 @@
+[
+ {
+  "TimeGenerated": "-50m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-48m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-47m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-100m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-85m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-70m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-55m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-40m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-25m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.33.8",
+  "AppDisplayName": "Outlook",
+  "ResultType": "500121",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-10m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-11m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-12m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-13m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-14m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-15m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-16m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-17m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.40.2",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0",
+  "AuthenticationRequirement": "multiFactorAuthentication"
+ }
+]

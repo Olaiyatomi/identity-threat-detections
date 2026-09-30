@@ -1,0 +1,56 @@
+id: ITD-002
+title: OAuth consent grants high-risk delegated permissions
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags successful consent to an application that includes high-risk
+  delegated scopes such as mail, files, SharePoint or directory write access.
+  Consent phishing gives an attacker a refresh token that survives password
+  resets and MFA, so this is often the persistence step after a phishing
+  click. Tenant-wide (admin) consent, or three or more risky scopes, is High.
+severity: Medium
+attack:
+  - technique: T1528
+    tactic: credential-access
+data_sources:
+  - AuditLogs
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  approvedApps: "Add service principal object IDs of reviewed apps to cut repeat alerts."
+  highRiskScopes: "Extend with scopes that matter in your tenant, for example Teams or Planner."
+false_positives:
+  - Legitimate productivity or backup apps that users adopt before IT reviews them.
+  - Admins onboarding a sanctioned SaaS tool with tenant-wide consent.
+triage:
+  - Look up the app in Entra ID. Check publisher verification, when the app was created, reply URLs and how many users have consented.
+  - Did the consenting user click a link in email shortly before? Check EmailUrlInfo or UrlClickEvents around TimeGenerated.
+  - If the app is not recognised, revoke its grants and disable the service principal, then revoke the user's sessions.
+  - Search for the same app across other users to size the campaign.
+  - Consider restricting user consent to verified publishers and low-risk scopes.
+references:
+  - https://attack.mitre.org/techniques/T1528/
+  - https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-app-consent
+tests:
+  - name: user consent to mail and file scopes and tenant-wide consent both fire
+    fixtures:
+      AuditLogs: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - ConsentingUser: alice@contoso.ca
+          AppName: Mail Backup Helper
+          IsTenantWide: false
+          RiskyScopes: ["Mail.ReadWrite", "Files.ReadWrite.All"]
+          Severity: Medium
+        - ConsentingUser: it.admin@contoso.ca
+          IsTenantWide: true
+          Severity: High
+  - name: low-risk consent, failed consent, other operations and old events stay quiet
+    fixtures:
+      AuditLogs: tests/benign.json
+    expect:
+      rows: 0

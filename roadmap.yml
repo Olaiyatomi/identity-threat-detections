@@ -1,0 +1,28 @@
+# Planned detections. tools/coverage.py shows these as "planned" on the ATT&CK map.
+# Move an entry into detections/ once it has a query, fixtures and passing tests.
+planned:
+  - title: AiTM session token replay (same session, new IP or device)
+    attack:
+      - {technique: T1539, tactic: credential-access}
+      - {technique: T1550.001, tactic: lateral-movement}
+  - title: Password spray against many accounts from few IPs
+    attack:
+      - {technique: T1110.003, tactic: credential-access}
+  - title: Device code phishing sign-in
+    attack:
+      - {technique: T1566.002, tactic: initial-access}
+  - title: Privileged role assigned outside PIM
+    attack:
+      - {technique: T1098.003, tactic: privilege-escalation}
+  - title: New secret or certificate added to a service principal
+    attack:
+      - {technique: T1098.001, tactic: persistence}
+  - title: New MFA method or device registered right after a risky sign-in
+    attack:
+      - {technique: T1098.005, tactic: persistence}
+  - title: Conditional Access policy weakened or deleted
+    attack:
+      - {technique: T1556.009, tactic: defense-impairment}
+  - title: Inbox rule that forwards or hides mail
+    attack:
+      - {technique: T1114.003, tactic: collection}

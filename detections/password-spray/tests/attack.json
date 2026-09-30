@@ -1,0 +1,110 @@
+[
+ {
+  "TimeGenerated": "-40m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-38m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-36m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-34m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-32m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-30m",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-28m",
+  "UserPrincipalName": "grace@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-26m",
+  "UserPrincipalName": "heidi@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-24m",
+  "UserPrincipalName": "ivan@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-22m",
+  "UserPrincipalName": "judy@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-20m",
+  "UserPrincipalName": "ken@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ },
+ {
+  "TimeGenerated": "-18m",
+  "UserPrincipalName": "liam@contoso.ca",
+  "IPAddress": "203.0.113.50",
+  "AppDisplayName": "Microsoft Office",
+  "ClientAppUsed": "Browser",
+  "ResultType": "50126",
+  "ResultDescription": "Invalid username or password or Invalid on-premise username or password."
+ }
+]

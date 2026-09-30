@@ -1,0 +1,268 @@
+[
+ {
+  "TimeGenerated": "-30m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-29m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-28m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-27m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-26m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-25m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-24m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-23m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "AppDisplayName": "Outlook",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-50m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-45m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-40m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-35m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-30m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-25m",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "142.116.20.1",
+  "AppDisplayName": "Microsoft Teams",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h0m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h1m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h2m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h3m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h4m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h5m",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h6m",
+  "UserPrincipalName": "grace@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h7m",
+  "UserPrincipalName": "heidi@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h8m",
+  "UserPrincipalName": "ivan@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h9m",
+  "UserPrincipalName": "judy@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h10m",
+  "UserPrincipalName": "ken@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-3h11m",
+  "UserPrincipalName": "liam@contoso.ca",
+  "IPAddress": "198.51.100.77",
+  "AppDisplayName": "Microsoft Office",
+  "ResultType": "50126"
+ },
+ {
+  "TimeGenerated": "-20m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-19m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-18m",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-17m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-16m",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-15m",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-14m",
+  "UserPrincipalName": "grace@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-13m",
+  "UserPrincipalName": "heidi@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-12m",
+  "UserPrincipalName": "ivan@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-11m",
+  "UserPrincipalName": "judy@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-10m",
+  "UserPrincipalName": "ken@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ },
+ {
+  "TimeGenerated": "-9m",
+  "UserPrincipalName": "liam@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "AppDisplayName": "OfficeHome",
+  "ResultType": "0"
+ }
+]

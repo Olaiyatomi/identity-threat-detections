@@ -1,0 +1,47 @@
+id: ITD-003
+title: Password spray from a single IP against many accounts
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags an IP address that fails password sign-in (Entra ID result 50126)
+  against 10 or more different accounts within an hour. Spraying one or two
+  common passwords across many users avoids per-account lockouts, so the
+  signal is breadth across users from one source, not volume on one account.
+severity: Medium
+attack:
+  - technique: T1110.003
+    tactic: credential-access
+data_sources:
+  - SigninLogs
+query: query.kql
+schedule:
+  frequency: 15m
+  lookback: 1h
+tuning:
+  UserCount: "10 distinct users per IP per hour. Raise it if a shared office or VPN egress IP trips it."
+false_positives:
+  - A shared VPN, proxy or office NAT address where many users mistype passwords on a busy morning.
+  - A misconfigured service or script cycling through accounts with a stale password.
+triage:
+  - Look up the IP. Is it a known corporate egress, VPN or cloud provider, or a hosting or anonymizer range?
+  - Did any targeted account sign in successfully from this IP afterward? If so, treat that account as compromised.
+  - Check whether the sampled usernames follow a pattern (all executives, alphabetical, guessed formats) that points to a harvested list.
+  - Block the IP at Conditional Access or with a named location if it is clearly hostile.
+references:
+  - https://attack.mitre.org/techniques/T1110/003/
+  - https://learn.microsoft.com/en-us/security/operations/incident-response-playbook-password-spray
+tests:
+  - name: one IP failing against 12 users in 30 minutes fires
+    fixtures:
+      SigninLogs: tests/attack.json
+    expect:
+      rows: 1
+      match:
+        - IPAddress: 203.0.113.50
+          UserCount: 12
+  - name: one user retrying, small office NAT, old spray and successful logins stay quiet
+    fixtures:
+      SigninLogs: tests/benign.json
+    expect:
+      rows: 0

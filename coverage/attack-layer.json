@@ -35,8 +35,8 @@
     {
       "techniqueID": "T1110.003",
       "tactic": "credential-access",
-      "score": 20,
-      "comment": "planned Password spray against many accounts from few IPs (planned)",
+      "score": 60,
+      "comment": "ITD-003 Password spray from a single IP against many accounts (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

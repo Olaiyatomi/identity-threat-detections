@@ -1,0 +1,14 @@
+// ITD-003 Password spray: one IP failing passwords against many different accounts
+// ATT&CK T1110.003 Password Spraying
+SigninLogs
+| where TimeGenerated >= ago(1h)
+| where ResultType == "50126"   // invalid username or password
+| summarize
+    UserCount = dcount(UserPrincipalName),
+    FirstAttempt = min(TimeGenerated),
+    LastAttempt = max(TimeGenerated),
+    SampleUsers = make_set(UserPrincipalName, 5)
+    by IPAddress
+| where UserCount >= 10
+| project IPAddress, UserCount, FirstAttempt, LastAttempt, SampleUsers
+| order by UserCount desc

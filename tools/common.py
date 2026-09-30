@@ -51,6 +51,7 @@ def load_fixture(path, now=None):
     now = now or datetime.now(timezone.utc)
     rows = json.loads(Path(path).read_text())
     for row in rows:
-        if "TimeGenerated" in row:
-            row["TimeGenerated"] = resolve_time(row["TimeGenerated"], now)
+        for col in ("TimeGenerated", "Timestamp"):
+            if col in row:
+                row[col] = resolve_time(row[col], now)
     return rows

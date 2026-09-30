@@ -1,0 +1,55 @@
+id: ITD-011
+title: Microsoft 365 Copilot jailbreak attempts by a user
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Counts Microsoft 365 Copilot prompts that Microsoft's own protection flagged
+  as jailbreak attempts (JailbreakDetected in the Copilot audit record), per
+  user. A jailbreak tries to make Copilot ignore its safety rules, for example
+  to reveal content it should not or to act outside policy. One flag can be
+  curiosity. Repeated attempts suggest someone deliberately working at it,
+  possibly an attacker using a compromised account.
+severity: Medium
+attack: []
+atlas:
+  - technique: AML.T0054
+    tactic: Defense Evasion
+data_sources:
+  - CloudAppEvents
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  JailbreakCount: "3 or more attempts in a day is High. Lower it for privileged users or sensitive departments."
+false_positives:
+  - Security or red team staff testing Copilot guardrails on purpose.
+  - Users experimenting out of curiosity after reading about jailbreaks.
+triage:
+  - Is the user on a red team or AI governance team, and was testing approved?
+  - Check the user's sign-ins around the same time. Jailbreak attempts from a new IP or country point to a compromised account.
+  - Review which apps and files the prompts ran against (Apps, and Contexts in the raw record) for sensitive sites.
+  - Retrieve the prompt text through Purview if policy allows, and involve HR or legal for insider cases.
+references:
+  - https://atlas.mitre.org/techniques/AML.T0054
+  - https://learn.microsoft.com/en-us/purview/audit-copilot
+tests:
+  - name: repeated attempts are High and a single attempt is Medium
+    fixtures:
+      CloudAppEvents: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - AccountDisplayName: Dan Moreau
+          JailbreakCount: 3
+          Severity: High
+          Apps: ["Word", "Teams"]
+        - AccountDisplayName: Erin Chen
+          JailbreakCount: 1
+          Severity: Medium
+  - name: normal use, flag set to false, non-Copilot action and old attempts stay quiet
+    fixtures:
+      CloudAppEvents: tests/benign.json
+    expect:
+      rows: 0

@@ -1,0 +1,142 @@
+[
+ {
+  "Timestamp": "-5h",
+  "TimeGenerated": "-5h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Dan Moreau",
+  "AccountObjectId": "d4n00000-1111-2222-3333-444444444444",
+  "AccountId": "d4n00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.8",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "RecordType": 261,
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Contexts": [
+     {
+      "Id": "https://contoso.sharepoint.com/sites/finance",
+      "Type": "SharePoint"
+     }
+    ],
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true,
+      "JailbreakDetected": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-4h",
+  "TimeGenerated": "-4h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Dan Moreau",
+  "AccountObjectId": "d4n00000-1111-2222-3333-444444444444",
+  "AccountId": "d4n00000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.8",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "RecordType": 261,
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Word",
+    "Contexts": [
+     {
+      "Id": "https://contoso.sharepoint.com/sites/finance",
+      "Type": "SharePoint"
+     }
+    ],
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true,
+      "JailbreakDetected": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-3h",
+  "TimeGenerated": "-3h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Dan Moreau",
+  "AccountObjectId": "d4n00000-1111-2222-3333-444444444444",
+  "AccountId": "d4n00000-1111-2222-3333-444444444444",
+  "IPAddress": "45.155.205.9",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "RecordType": 261,
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Teams",
+    "Contexts": [
+     {
+      "Id": "https://contoso.sharepoint.com/sites/finance",
+      "Type": "SharePoint"
+     }
+    ],
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true,
+      "JailbreakDetected": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ]
+   }
+  }
+ },
+ {
+  "Timestamp": "-2h",
+  "TimeGenerated": "-2h",
+  "ActionType": "CopilotInteraction",
+  "Application": "Microsoft 365 Copilot",
+  "AccountDisplayName": "Erin Chen",
+  "AccountObjectId": "e5170000-1111-2222-3333-444444444444",
+  "AccountId": "e5170000-1111-2222-3333-444444444444",
+  "IPAddress": "142.116.20.9",
+  "CountryCode": "CA",
+  "RawEventData": {
+   "RecordType": 261,
+   "Operation": "CopilotInteraction",
+   "CopilotEventData": {
+    "AppHost": "Outlook",
+    "Contexts": [
+     {
+      "Id": "https://contoso.sharepoint.com/sites/finance",
+      "Type": "SharePoint"
+     }
+    ],
+    "Messages": [
+     {
+      "Id": "m0",
+      "isPrompt": true,
+      "JailbreakDetected": true
+     },
+     {
+      "Id": "m1",
+      "isPrompt": false
+     }
+    ]
+   }
+  }
+ }
+]

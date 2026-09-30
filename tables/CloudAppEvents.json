@@ -1,7 +1,8 @@
 {
-  "_note": "Subset of the Microsoft Defender XDR CloudAppEvents schema (streamed to Sentinel). Copilot interactions arrive with ActionType CopilotInteraction and details in RawEventData.CopilotEventData.",
+  "_note": "Subset of the Microsoft Defender XDR CloudAppEvents schema (streamed to Sentinel). Copilot interactions arrive with ActionType CopilotInteraction and details in RawEventData.CopilotEventData. Has both TimeGenerated (Sentinel) and Timestamp (Defender XDR advanced hunting).",
   "columns": {
     "TimeGenerated": "datetime",
+    "Timestamp": "datetime",
     "ActionType": "string",
     "Application": "string",
     "AccountObjectId": "string",

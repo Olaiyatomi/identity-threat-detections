@@ -1,9 +1,6 @@
 # Planned detections. tools/coverage.py shows these as "planned" on the coverage maps.
 # Move an entry into detections/ once it has a query, fixtures and passing tests.
 planned:
-  - title: Copilot jailbreak attempts by a user
-    atlas:
-      - {technique: AML.T0054, tactic: Defense Evasion}
   - title: Copilot read a file or email carrying a hidden prompt injection
     atlas:
       - {technique: AML.T0051.001, tactic: Execution}

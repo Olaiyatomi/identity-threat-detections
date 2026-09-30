@@ -18,7 +18,7 @@ mapped to [MITRE ATLAS](https://atlas.mitre.org/) as well as ATT&CK.
 
 ## Detections
 
-| ID | Detection | ATT&CK | Status |
+| ID | Detection | ATT&CK / ATLAS | Status |
 |---|---|---|---|
 | ITD-001 | [MFA fatigue burst with optional approval](detections/mfa-fatigue/) | T1621 | experimental |
 | ITD-002 | [OAuth consent grants high-risk delegated permissions](detections/illicit-oauth-consent/) | T1528 | experimental |
@@ -30,6 +30,7 @@ mapped to [MITRE ATLAS](https://atlas.mitre.org/) as well as ATT&CK.
 | ITD-008 | [Device code sign-in by a user with no device code history](detections/device-code-phishing/) | T1566.002 | experimental |
 | ITD-009 | [New MFA method registered soon after a risky sign-in](detections/mfa-registered-after-risky-signin/) | T1098.005 | experimental |
 | ITD-010 | [AiTM session token replay across countries](detections/aitm-session-replay/) | T1539, T1550.001 | experimental |
+| ITD-011 | [Microsoft 365 Copilot jailbreak attempts by a user](detections/copilot-jailbreak/) | ATLAS AML.T0054 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

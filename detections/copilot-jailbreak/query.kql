@@ -1,0 +1,25 @@
+// ITD-011 Microsoft 365 Copilot jailbreak attempts by a user
+// MITRE ATLAS AML.T0054 LLM Jailbreak
+CloudAppEvents
+| where Timestamp >= ago(1d)
+| where ActionType == "CopilotInteraction"
+| mv-expand Message = RawEventData.CopilotEventData.Messages
+| where tobool(Message.JailbreakDetected) == true
+| summarize
+    JailbreakCount = count(),
+    Apps = make_set(tostring(RawEventData.CopilotEventData.AppHost)),
+    FirstSeen = min(Timestamp),
+    LastSeen = max(Timestamp),
+    IPs = make_set(IPAddress)
+    by AccountDisplayName, AccountObjectId
+| extend Severity = iff(JailbreakCount >= 3, "High", "Medium")
+| project
+    AccountDisplayName,
+    AccountObjectId,
+    JailbreakCount,
+    Severity,
+    Apps,
+    IPs,
+    FirstSeen,
+    LastSeen
+| order by JailbreakCount desc

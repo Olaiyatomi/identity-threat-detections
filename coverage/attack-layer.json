@@ -27,8 +27,8 @@
     {
       "techniqueID": "T1098.005",
       "tactic": "persistence",
-      "score": 20,
-      "comment": "planned New MFA method or device registered right after a risky sign-in (planned)",
+      "score": 60,
+      "comment": "ITD-009 New MFA method registered soon after a risky sign-in (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

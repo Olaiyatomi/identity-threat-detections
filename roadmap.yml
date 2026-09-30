@@ -5,6 +5,3 @@ planned:
     attack:
       - {technique: T1539, tactic: credential-access}
       - {technique: T1550.001, tactic: lateral-movement}
-  - title: New MFA method or device registered right after a risky sign-in
-    attack:
-      - {technique: T1098.005, tactic: persistence}

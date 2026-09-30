@@ -1,0 +1,23 @@
+[
+ {
+  "TimeGenerated": "-2h40m",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "success",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "alice@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "alice@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ }
+]

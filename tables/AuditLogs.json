@@ -5,6 +5,7 @@
     "OperationName": "string",
     "Category": "string",
     "Result": "string",
+    "ResultReason": "string",
     "LoggedByService": "string",
     "InitiatedBy": "dynamic",
     "TargetResources": "dynamic",

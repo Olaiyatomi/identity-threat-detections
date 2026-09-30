@@ -1,0 +1,56 @@
+[
+ {
+  "TimeGenerated": "-5h",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "medium",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-2h",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.20.6",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "low",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-4h",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "45.155.205.10",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "high",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-1h",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "45.155.205.11",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "high",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-3h",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "45.155.205.12",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "high",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-6h",
+  "UserPrincipalName": "grace@contoso.ca",
+  "IPAddress": "45.155.205.13",
+  "ResultType": "50126",
+  "RiskLevelDuringSignIn": "high",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ }
+]

@@ -1,0 +1,35 @@
+// ITD-009 New MFA method registered soon after a risky sign-in
+// ATT&CK T1098.005 Device Registration
+let RiskySignins =
+    SigninLogs
+    | where TimeGenerated >= ago(1d)
+    | where ResultType == "0"
+    | where RiskLevelDuringSignIn in ("medium", "high")
+    | project
+        UserPrincipalName,
+        SigninTime = TimeGenerated,
+        SigninIP = IPAddress,
+        RiskLevelDuringSignIn;
+
+let Registrations =
+    AuditLogs
+    | where TimeGenerated >= ago(1d)
+    | where OperationName == "User registered security info"
+    | where Result =~ "success"
+    | extend UserPrincipalName = tostring(TargetResources[0].userPrincipalName)
+    | project
+        UserPrincipalName,
+        RegisterTime = TimeGenerated,
+        Method = ResultReason;
+
+RiskySignins
+| join kind=inner Registrations on UserPrincipalName
+| where RegisterTime between (SigninTime .. SigninTime + 2h)
+| project
+    UserPrincipalName,
+    SigninTime,
+    SigninIP,
+    RiskLevelDuringSignIn,
+    RegisterTime,
+    Method
+| order by RegisterTime desc

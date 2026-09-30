@@ -1,0 +1,107 @@
+[
+ {
+  "TimeGenerated": "-1h",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "success",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "bob@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "bob@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-1h50m",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "success",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "carol@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "carol@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-3h",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "success",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "erin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "erin@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-2h50m",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "failure",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "frank@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "frank@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-5h50m",
+  "OperationName": "User registered security info",
+  "Category": "UserManagement",
+  "Result": "success",
+  "ResultReason": "User registered Authenticator App with Notification and Code",
+  "LoggedByService": "Authentication Methods",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "grace@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "User",
+    "userPrincipalName": "grace@contoso.ca",
+    "id": "aa11bb22-cc33-dd44-ee55-ff6677889900"
+   }
+  ]
+ }
+]

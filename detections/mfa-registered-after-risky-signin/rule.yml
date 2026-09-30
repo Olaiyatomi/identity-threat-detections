@@ -1,0 +1,52 @@
+id: ITD-009
+title: New MFA method registered soon after a risky sign-in
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Joins sign-ins that Entra ID rated medium or high risk with MFA method
+  registrations for the same user in the following two hours. An attacker
+  who gets in with stolen credentials often registers their own authenticator
+  straight away, which lets them keep access after the victim resets the
+  password and removes the need to trick the victim again.
+severity: High
+attack:
+  - technique: T1098.005
+    tactic: persistence
+data_sources:
+  - SigninLogs
+  - AuditLogs
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  window: "2 hours between the risky sign-in and the registration. Widen it if attackers in your data wait longer."
+  RiskLevelDuringSignIn: "Requires Entra ID P2 risk data. Without it, swap in a new-country or new-IP condition."
+false_positives:
+  - A user setting up a new phone while travelling, where the new location made the sign-in look risky.
+  - Helpdesk-assisted re-registration after a lost device, from an unusual network.
+triage:
+  - Contact the user through a known channel. Did they add a new authenticator, and from where?
+  - Compare SigninIP with the user's usual locations, and check which device the new method is on in the user's authentication methods.
+  - If not the user, delete the new method, reset the password, revoke sessions and review what the account did after the sign-in.
+references:
+  - https://attack.mitre.org/techniques/T1098/005/
+  - https://learn.microsoft.com/en-us/entra/identity/authentication/howto-authentication-methods-activity
+tests:
+  - name: high-risk sign-in followed by authenticator registration fires
+    fixtures:
+      SigninLogs: tests/attack_signins.json
+      AuditLogs: tests/attack_audit.json
+    expect:
+      rows: 1
+      match:
+        - UserPrincipalName: alice@contoso.ca
+          SigninIP: 185.220.101.47
+          RiskLevelDuringSignIn: high
+  - name: late, low-risk, missing, earlier, failed and failed-sign-in cases stay quiet
+    fixtures:
+      SigninLogs: tests/benign_signins.json
+      AuditLogs: tests/benign_audit.json
+    expect:
+      rows: 0

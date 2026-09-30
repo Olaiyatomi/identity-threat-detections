@@ -1,0 +1,20 @@
+[
+ {
+  "TimeGenerated": "-3h",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "high",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ },
+ {
+  "TimeGenerated": "-20h",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "ResultType": "0",
+  "RiskLevelDuringSignIn": "none",
+  "AppDisplayName": "My Signins",
+  "AuthenticationRequirement": "singleFactorAuthentication"
+ }
+]

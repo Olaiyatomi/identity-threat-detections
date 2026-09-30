@@ -1,0 +1,52 @@
+id: ITD-005
+title: New secret or certificate added to an application
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a new client secret or certificate added to an Entra ID application
+  or service principal. An attacker with admin access can add their own
+  credential to an existing, already-trusted app and then authenticate as
+  that app with all of its permissions. The credential survives user
+  password resets and MFA changes, which makes it a strong persistence method.
+severity: Medium
+attack:
+  - technique: T1098.001
+    tactic: persistence
+data_sources:
+  - AuditLogs
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  InitiatedByWho: "Exclude automation identities that rotate secrets on a schedule, by name, once you have confirmed them."
+false_positives:
+  - Planned secret or certificate rotation by app owners or automation.
+  - Developers adding credentials to their own test applications.
+triage:
+  - Who added the credential, and do they own or normally manage this app? Check their recent sign-ins for anything unusual.
+  - What API permissions does the app hold? Mail, files or directory write access raise the urgency.
+  - Did the app sign in from a new IP soon after (AADServicePrincipalSignInLogs)?
+  - If unexpected, remove the new credential, review the app's recent activity and revoke the initiating account's sessions.
+references:
+  - https://attack.mitre.org/techniques/T1098/001/
+  - https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/manage-application-permissions
+tests:
+  - name: user-added secret and app-added certificate both fire
+    fixtures:
+      AuditLogs: tests/attack.json
+    expect:
+      rows: 2
+      match:
+        - InitiatedByWho: it.admin@contoso.ca
+          TargetApp: Finance Reporting Connector
+          KeyType: Password
+        - InitiatedByWho: Automation Runner
+          TargetApp: HR Sync Service
+          KeyType: AsymmetricX509Cert
+  - name: failed attempt, unrelated app update and old event stay quiet
+    fixtures:
+      AuditLogs: tests/benign.json
+    expect:
+      rows: 0

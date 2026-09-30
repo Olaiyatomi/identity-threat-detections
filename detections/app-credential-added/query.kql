@@ -1,0 +1,27 @@
+// ITD-005 New secret or certificate added to an application or service principal
+// ATT&CK T1098.001 Additional Cloud Credentials
+AuditLogs
+| where TimeGenerated >= ago(1d)
+| where Result =~ "success"
+| where OperationName == "Add service principal credentials"
+    or OperationName has "Certificates and secrets management"
+| extend
+    InitiatedByWho = coalesce(
+        tostring(InitiatedBy.user.userPrincipalName),
+        tostring(InitiatedBy.app.displayName)
+    ),
+    TargetApp = tostring(TargetResources[0].displayName)
+| mv-expand ModifiedProperty = TargetResources[0].modifiedProperties
+| where tostring(ModifiedProperty.displayName) == "KeyDescription"
+| extend KeyType = extract(
+    @"KeyType=(\w+)",
+    1,
+    tostring(ModifiedProperty.newValue)
+)
+| project
+    TimeGenerated,
+    InitiatedByWho,
+    TargetApp,
+    OperationName,
+    KeyType
+| order by TimeGenerated desc

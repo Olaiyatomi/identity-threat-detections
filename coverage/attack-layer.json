@@ -11,8 +11,8 @@
     {
       "techniqueID": "T1098.001",
       "tactic": "persistence",
-      "score": 20,
-      "comment": "planned New secret or certificate added to a service principal (planned)",
+      "score": 60,
+      "comment": "ITD-005 New secret or certificate added to an application (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

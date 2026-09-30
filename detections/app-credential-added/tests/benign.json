@@ -1,0 +1,101 @@
+[
+ {
+  "TimeGenerated": "-2h",
+  "OperationName": "Add service principal credentials",
+  "Category": "ApplicationManagement",
+  "Result": "failure",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "k-ok-1",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "ServicePrincipal",
+    "displayName": "Finance Reporting Connector",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "modifiedProperties": [
+     {
+      "displayName": "Included Updated Properties",
+      "oldValue": null,
+      "newValue": "\"KeyDescription\""
+     },
+     {
+      "displayName": "KeyDescription",
+      "oldValue": "[]",
+      "newValue": "[\"[KeyIdentifier=3f2a9c1e-7b6d-4e5f-8a9b-0c1d2e3f4a5b,KeyType=Password,KeyUsage=Verify,DisplayName=sync]\"]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-1h",
+  "OperationName": "Update application",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "k-ok-2",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "ServicePrincipal",
+    "displayName": "HR Sync Service",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "modifiedProperties": [
+     {
+      "displayName": "Included Updated Properties",
+      "oldValue": null,
+      "newValue": "\"KeyDescription\""
+     },
+     {
+      "displayName": "KeyDescription",
+      "oldValue": "[]",
+      "newValue": "[\"[KeyIdentifier=3f2a9c1e-7b6d-4e5f-8a9b-0c1d2e3f4a5b,KeyType=Password,KeyUsage=Verify,DisplayName=sync]\"]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-3d",
+  "OperationName": "Add service principal credentials",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "k-ok-3",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "ServicePrincipal",
+    "displayName": "Old Integration",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "modifiedProperties": [
+     {
+      "displayName": "Included Updated Properties",
+      "oldValue": null,
+      "newValue": "\"KeyDescription\""
+     },
+     {
+      "displayName": "KeyDescription",
+      "oldValue": "[]",
+      "newValue": "[\"[KeyIdentifier=3f2a9c1e-7b6d-4e5f-8a9b-0c1d2e3f4a5b,KeyType=Password,KeyUsage=Verify,DisplayName=sync]\"]"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "TimeGenerated": "-5h",
+  "OperationName": "Add service principal credentials",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "k-atk-1",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "ServicePrincipal",
+    "displayName": "Finance Reporting Connector",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "modifiedProperties": [
+     {
+      "displayName": "Included Updated Properties",
+      "oldValue": null,
+      "newValue": "\"KeyDescription\""
+     },
+     {
+      "displayName": "KeyDescription",
+      "oldValue": "[]",
+      "newValue": "[\"[KeyIdentifier=3f2a9c1e-7b6d-4e5f-8a9b-0c1d2e3f4a5b,KeyType=Password,KeyUsage=Verify,DisplayName=sync]\"]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-50m",
+  "OperationName": "Update application – Certificates and secrets management ",
+  "Category": "ApplicationManagement",
+  "Result": "success",
+  "LoggedByService": "Core Directory",
+  "CorrelationId": "k-atk-2",
+  "InitiatedBy": {
+   "app": {
+    "displayName": "Automation Runner",
+    "servicePrincipalId": "0b1c2d3e-4f50-6172-8394-a5b6c7d8e9f0"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "ServicePrincipal",
+    "displayName": "HR Sync Service",
+    "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+    "modifiedProperties": [
+     {
+      "displayName": "Included Updated Properties",
+      "oldValue": null,
+      "newValue": "\"KeyDescription\""
+     },
+     {
+      "displayName": "KeyDescription",
+      "oldValue": "[]",
+      "newValue": "[\"[KeyIdentifier=3f2a9c1e-7b6d-4e5f-8a9b-0c1d2e3f4a5b,KeyType=AsymmetricX509Cert,KeyUsage=Verify,DisplayName=sync]\"]"
+     }
+    ]
+   }
+  ]
+ }
+]

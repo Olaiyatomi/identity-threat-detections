@@ -21,6 +21,7 @@ test detections for that layer.
 | ITD-002 | [OAuth consent grants high-risk delegated permissions](detections/illicit-oauth-consent/) | T1528 | experimental |
 | ITD-003 | [Password spray from a single IP against many accounts](detections/password-spray/) | T1110.003 | experimental |
 | ITD-004 | [Privileged role assigned directly outside PIM](detections/priv-role-outside-pim/) | T1098.003 | experimental |
+| ITD-005 | [New secret or certificate added to an application](detections/app-credential-added/) | T1098.001 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

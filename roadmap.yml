@@ -8,9 +8,6 @@ planned:
   - title: Device code phishing sign-in
     attack:
       - {technique: T1566.002, tactic: initial-access}
-  - title: New secret or certificate added to a service principal
-    attack:
-      - {technique: T1098.001, tactic: persistence}
   - title: New MFA method or device registered right after a risky sign-in
     attack:
       - {technique: T1098.005, tactic: persistence}

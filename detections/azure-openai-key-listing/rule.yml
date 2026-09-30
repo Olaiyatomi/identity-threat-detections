@@ -1,0 +1,56 @@
+id: ITD-014
+title: Azure OpenAI keys listed by a caller never seen doing it before (LLMjacking)
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags successful listing of Azure AI Services or Azure OpenAI account keys
+  by a caller (user or service principal) that has not listed keys in the
+  previous 30 days. In LLMjacking, attackers with cloud access copy these keys
+  to use or resell the organization's AI capacity, which runs up large bills
+  and can put harmful generated content under the organization's name. Key
+  listing is rare and usually done by a small set of admins and pipelines,
+  which makes a new caller a strong signal.
+severity: High
+attack:
+  - technique: T1496.004
+    tactic: impact
+atlas:
+  - technique: AML.T0034
+    tactic: Impact
+data_sources:
+  - AzureActivity
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 30d
+tuning:
+  KnownCallers: "30 days of history. Callers can be user emails or service principal IDs. Consider higher severity for human callers from outside corporate IP ranges."
+false_positives:
+  - A new admin or a new deployment pipeline setting up an AI resource for the first time.
+  - Engineers rotating keys during an incident.
+triage:
+  - Is the caller a person or an app? Confirm the person's role, or which pipeline owns the service principal.
+  - Is CallerIpAddress a corporate, cloud provider or hosting range? Hosting and anonymizer ranges are a red flag.
+  - Check the AI resource's usage metrics for a spike in tokens or requests after the listing, and requests from new IPs.
+  - If unexpected, regenerate both keys, move the resource to Entra ID (keyless) authentication, and review the caller's other activity.
+references:
+  - https://attack.mitre.org/techniques/T1496/004/
+  - https://atlas.mitre.org/techniques/AML.T0034
+  - https://learn.microsoft.com/en-us/azure/ai-services/authentication
+tests:
+  - name: new caller listing keys on two AI resources fires, known pipeline does not
+    fixtures:
+      AzureActivity: tests/attack.json
+    expect:
+      rows: 1
+      match:
+        - Caller: contractor.x@contoso.ca
+          CallerIpAddress: 185.220.101.47
+          ListCount: 3
+          Resources: ["contoso-openai-prod", "contoso-openai-dev"]
+  - name: known admin, failed attempt, other operations and old listings stay quiet
+    fixtures:
+      AzureActivity: tests/benign.json
+    expect:
+      rows: 0

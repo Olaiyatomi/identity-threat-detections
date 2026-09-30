@@ -59,8 +59,8 @@
     {
       "techniqueID": "T1496.004",
       "tactic": "impact",
-      "score": 20,
-      "comment": "planned Azure OpenAI keys listed by an unusual identity (LLMjacking) (planned)",
+      "score": 60,
+      "comment": "ITD-014 Azure OpenAI keys listed by a caller never seen doing it before (LLMjacking) (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

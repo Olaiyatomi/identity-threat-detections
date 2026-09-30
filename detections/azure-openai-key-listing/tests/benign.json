@@ -1,0 +1,72 @@
+[
+ {
+  "TimeGenerated": "-5d",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Success",
+  "Caller": "ai.admin@contoso.ca",
+  "CallerIpAddress": "142.116.20.9",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-prod",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-20d",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Success",
+  "Caller": "3c4d5e6f-7a8b-4c9d-8e0f-1a2b3c4d5e6f",
+  "CallerIpAddress": "20.42.0.10",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-prod",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-12d",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Success",
+  "Caller": "3c4d5e6f-7a8b-4c9d-8e0f-1a2b3c4d5e6f",
+  "CallerIpAddress": "20.42.0.10",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-dev",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-4h",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Success",
+  "Caller": "ai.admin@contoso.ca",
+  "CallerIpAddress": "142.116.20.9",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-prod",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-3h",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Failed",
+  "Caller": "dev.user@contoso.ca",
+  "CallerIpAddress": "142.116.20.12",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-dev",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-2h",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/READ",
+  "ActivityStatusValue": "Success",
+  "Caller": "dev.user@contoso.ca",
+  "CallerIpAddress": "142.116.20.12",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-dev",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ },
+ {
+  "TimeGenerated": "-40d",
+  "OperationNameValue": "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION",
+  "ActivityStatusValue": "Success",
+  "Caller": "old.user@contoso.ca",
+  "CallerIpAddress": "45.155.205.9",
+  "ResourceProviderValue": "MICROSOFT.COGNITIVESERVICES",
+  "_ResourceId": "/subscriptions/8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b/resourceGroups/rg-ai/providers/Microsoft.CognitiveServices/accounts/contoso-openai-prod",
+  "SubscriptionId": "8f1e2d3c-4b5a-6978-8a9b-0c1d2e3f4a5b"
+ }
+]

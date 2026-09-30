@@ -1,8 +1,3 @@
 # Planned detections. tools/coverage.py shows these as "planned" on the coverage maps.
 # Move an entry into detections/ once it has a query, fixtures and passing tests.
-planned:
-  - title: Azure OpenAI keys listed by an unusual identity (LLMjacking)
-    attack:
-      - {technique: T1496.004, tactic: impact}
-    atlas:
-      - {technique: AML.T0034, tactic: Impact}
+planned: []

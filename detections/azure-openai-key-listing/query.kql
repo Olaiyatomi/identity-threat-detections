@@ -1,0 +1,29 @@
+// ITD-014 Azure OpenAI / AI Services keys listed by a caller never seen doing it before (LLMjacking)
+// ATT&CK T1496.004 Cloud Service Hijacking | MITRE ATLAS AML.T0034 Cost Harvesting
+let KnownCallers =
+    AzureActivity
+    | where TimeGenerated between (ago(30d) .. ago(1d))
+    | where OperationNameValue =~ "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION"
+    | where ActivityStatusValue in~ ("Success", "Succeeded")
+    | distinct Caller;
+
+AzureActivity
+| where TimeGenerated >= ago(1d)
+| where OperationNameValue =~ "MICROSOFT.COGNITIVESERVICES/ACCOUNTS/LISTKEYS/ACTION"
+| where ActivityStatusValue in~ ("Success", "Succeeded")
+| join kind=leftanti KnownCallers on Caller
+| extend ResourceName = tostring(split(_ResourceId, "/")[-1])
+| summarize
+    Resources = make_set(ResourceName),
+    ListCount = count(),
+    FirstSeen = min(TimeGenerated),
+    LastSeen = max(TimeGenerated)
+    by Caller, CallerIpAddress
+| project
+    Caller,
+    CallerIpAddress,
+    Resources,
+    ListCount,
+    FirstSeen,
+    LastSeen
+| order by LastSeen desc

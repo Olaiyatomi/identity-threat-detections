@@ -49,6 +49,22 @@
       "showSubtechniques": true
     },
     {
+      "techniqueID": "T1213.002",
+      "tactic": "collection",
+      "score": 20,
+      "comment": "planned Copilot pulls many sensitivity-labelled files in a short time (planned)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
+      "techniqueID": "T1496.004",
+      "tactic": "impact",
+      "score": 20,
+      "comment": "planned Azure OpenAI keys listed by an unusual identity (LLMjacking) (planned)",
+      "enabled": true,
+      "showSubtechniques": true
+    },
+    {
       "techniqueID": "T1528",
       "tactic": "credential-access",
       "score": 60,

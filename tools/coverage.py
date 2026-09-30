@@ -13,17 +13,23 @@ from common import ROOT, load_rules
 
 attack_data = json.loads((ROOT / "data" / "attack_index.json").read_text())
 attack = attack_data["techniques"]
+atlas = json.loads((ROOT / "data" / "atlas_index.json").read_text())["techniques"]
 planned = yaml.safe_load((ROOT / "roadmap.yml").read_text()).get("planned") or []
 
 STATUS_SCORE = {"stable": 100, "testing": 75, "experimental": 60, "planned": 20}
 cells = defaultdict(list)  # (technique, tactic) -> [(status, id, title)]
+atlas_cells = defaultdict(list)
 
 for _, meta in load_rules():
     for m in meta["attack"]:
         cells[(m["technique"], m["tactic"])].append((meta["status"], meta["id"], meta["title"]))
+    for m in meta.get("atlas", []):
+        atlas_cells[(m["technique"], m["tactic"])].append((meta["status"], meta["id"], meta["title"]))
 for p in planned:
-    for m in p["attack"]:
+    for m in p.get("attack", []):
         cells[(m["technique"], m["tactic"])].append(("planned", "planned", p["title"]))
+    for m in p.get("atlas", []):
+        atlas_cells[(m["technique"], m["tactic"])].append(("planned", "planned", p["title"]))
 
 techniques = []
 for (tid, tactic), items in sorted(cells.items()):
@@ -64,5 +70,12 @@ for (tid, tactic), items in sorted(cells.items()):
     lines.append(f"| {tid} {name} | {tactic} | {det} |")
 shipped = sum(1 for items in cells.values() if any(s != "planned" for s, _, _ in items))
 lines += ["", f"{shipped} technique/tactic pairs covered by tested rules, {len(cells) - shipped} planned."]
+if atlas_cells:
+    lines += ["", "# MITRE ATLAS coverage (attacks on AI systems)", "",
+              "Mapped against [MITRE ATLAS](https://atlas.mitre.org/).", "",
+              "| Technique | Tactic | Detections |", "|---|---|---|"]
+    for (tid, tactic), items in sorted(atlas_cells.items()):
+        det = "<br>".join(f"`{i}` {t} ({s})" if i != "planned" else f"planned: {t}" for s, i, t in items)
+        lines.append(f"| {tid} {atlas[tid]['name']} | {tactic} | {det} |")
 (out / "COVERAGE.md").write_text("\n".join(lines) + "\n")
 print(f"coverage: {shipped} covered, {len(cells) - shipped} planned")

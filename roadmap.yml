@@ -1,3 +1,19 @@
-# Planned detections. tools/coverage.py shows these as "planned" on the ATT&CK map.
+# Planned detections. tools/coverage.py shows these as "planned" on the coverage maps.
 # Move an entry into detections/ once it has a query, fixtures and passing tests.
-planned: []
+planned:
+  - title: Copilot jailbreak attempts by a user
+    atlas:
+      - {technique: AML.T0054, tactic: Defense Evasion}
+  - title: Copilot read a file or email carrying a hidden prompt injection
+    atlas:
+      - {technique: AML.T0051.001, tactic: Execution}
+  - title: Copilot pulls many sensitivity-labelled files in a short time
+    attack:
+      - {technique: T1213.002, tactic: collection}
+    atlas:
+      - {technique: AML.T0057, tactic: Exfiltration}
+  - title: Azure OpenAI keys listed by an unusual identity (LLMjacking)
+    attack:
+      - {technique: T1496.004, tactic: impact}
+    atlas:
+      - {technique: AML.T0034, tactic: Impact}

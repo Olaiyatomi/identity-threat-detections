@@ -1,6 +1,6 @@
 """Quality gate for every detection. Runs in CI on each push.
 
-Checks: metadata schema, ATT&CK technique and tactic are real and current,
+Checks: metadata schema, ATT&CK and ATLAS techniques and tactics are real and current,
 query file exists and uses its declared tables, fixtures only use known
 columns, and each rule has at least one firing test and one benign test.
 """
@@ -14,6 +14,7 @@ from common import ROOT, load_rules, load_table_schema
 schema = json.loads((ROOT / "schema" / "detection.schema.json").read_text())
 validator = Draft202012Validator(schema, format_checker=Draft202012Validator.FORMAT_CHECKER)
 attack = json.loads((ROOT / "data" / "attack_index.json").read_text())["techniques"]
+atlas = json.loads((ROOT / "data" / "atlas_index.json").read_text())["techniques"]
 
 
 def check(rule_dir, meta):
@@ -31,6 +32,15 @@ def check(rule_dir, meta):
             errs.append(f"attack: {m['technique']} ({t['name']}) is deprecated or revoked")
         elif m["tactic"] not in t["tactics"]:
             errs.append(f"attack: tactic '{m['tactic']}' is not valid for {m['technique']}; use one of {t['tactics']}")
+
+    if not meta["attack"] and not meta.get("atlas"):
+        errs.append("mapping: needs at least one ATT&CK or ATLAS technique")
+    for m in meta.get("atlas", []):
+        t = atlas.get(m["technique"])
+        if not t:
+            errs.append(f"atlas: {m['technique']} is not an ATLAS technique")
+        elif m["tactic"].lower() not in [x.lower() for x in t["tactics"]]:
+            errs.append(f"atlas: tactic '{m['tactic']}' is not valid for {m['technique']}; use one of {t['tactics']}")
 
     qpath = rule_dir / meta["query"]
     if not qpath.exists():
@@ -83,6 +93,18 @@ def main():
         for e in errs:
             print(f"    - {e}")
         failed += bool(errs)
+    import yaml
+    for p in (yaml.safe_load((ROOT / "roadmap.yml").read_text()).get("planned") or []):
+        for m in p.get("attack", []):
+            t = attack.get(m["technique"])
+            if not t or m["tactic"] not in t["tactics"]:
+                print(f"[FAIL] roadmap: {p['title']}: bad ATT&CK mapping {m}")
+                failed += 1
+        for m in p.get("atlas", []):
+            t = atlas.get(m["technique"])
+            if not t or m["tactic"].lower() not in [x.lower() for x in t["tactics"]]:
+                print(f"[FAIL] roadmap: {p['title']}: bad ATLAS mapping {m}")
+                failed += 1
     print(f"\n{len(seen)} rules checked, {failed} failed")
     sys.exit(1 if failed or not seen else 0)
 

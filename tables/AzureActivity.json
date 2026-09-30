@@ -1,0 +1,15 @@
+{
+  "_note": "Subset of the Microsoft Sentinel AzureActivity schema (Azure control plane).",
+  "columns": {
+    "TimeGenerated": "datetime",
+    "OperationNameValue": "string",
+    "ActivityStatusValue": "string",
+    "Caller": "string",
+    "CallerIpAddress": "string",
+    "ResourceProviderValue": "string",
+    "_ResourceId": "string",
+    "SubscriptionId": "string",
+    "Claims_d": "dynamic",
+    "Properties_d": "dynamic"
+  }
+}

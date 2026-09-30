@@ -9,6 +9,9 @@ Identity is where most modern intrusions start: stolen sessions, MFA push
 bombing, consent phishing, quiet role changes. This repo is where I build and
 test detections for that layer.
 
+It also covers attacks on AI itself (Microsoft 365 Copilot and Azure OpenAI),
+mapped to [MITRE ATLAS](https://atlas.mitre.org/) as well as ATT&CK.
+
 **Coverage:** see [coverage/COVERAGE.md](coverage/COVERAGE.md), or load
 [`coverage/attack-layer.json`](coverage/attack-layer.json) in the
 [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/).
@@ -46,8 +49,8 @@ On every push, GitHub Actions runs two jobs:
 
 1. **validate** (`tools/validate.py`)
    - metadata matches [the schema](schema/detection.schema.json)
-   - each ATT&CK technique exists, is not deprecated, and the tactic is valid for it
-     (checked against MITRE's own data in `data/attack_index.json`)
+   - each ATT&CK and ATLAS technique exists and the tactic is valid for it
+     (checked against MITRE's own data in `data/attack_index.json` and `data/atlas_index.json`)
    - the query references every table it claims to use
    - fixtures only use real columns from `tables/*.json`
    - every rule has at least one firing test and one benign test

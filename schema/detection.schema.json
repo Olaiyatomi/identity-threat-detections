@@ -2,40 +2,199 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Detection rule metadata",
   "type": "object",
-  "required": ["id", "title", "status", "author", "created", "description", "severity", "attack", "data_sources", "query", "schedule", "false_positives", "triage", "tests"],
+  "required": [
+    "id",
+    "title",
+    "status",
+    "author",
+    "created",
+    "description",
+    "severity",
+    "attack",
+    "data_sources",
+    "query",
+    "schedule",
+    "false_positives",
+    "triage",
+    "tests"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^ITD-[0-9]{3}$"},
-    "title": {"type": "string", "minLength": 10},
-    "status": {"enum": ["experimental", "testing", "stable"]},
-    "author": {"type": "string"},
-    "created": {"type": "string", "format": "date"},
-    "modified": {"type": "string", "format": "date"},
-    "description": {"type": "string", "minLength": 40},
-    "severity": {"enum": ["Informational", "Low", "Medium", "High"]},
-    "attack": {
-      "type": "array", "minItems": 1,
-      "items": {"type": "object", "required": ["technique", "tactic"], "additionalProperties": false,
-        "properties": {"technique": {"type": "string", "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"}, "tactic": {"type": "string"}}}
+    "id": {
+      "type": "string",
+      "pattern": "^ITD-[0-9]{3}$"
     },
-    "data_sources": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-    "query": {"type": "string", "pattern": "\\.kql$"},
-    "schedule": {"type": "object", "required": ["frequency", "lookback"], "additionalProperties": false,
-      "properties": {"frequency": {"type": "string"}, "lookback": {"type": "string"}}},
-    "tuning": {"type": "object", "additionalProperties": {"type": "string"}},
-    "false_positives": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-    "triage": {"type": "array", "minItems": 2, "items": {"type": "string"}},
-    "references": {"type": "array", "items": {"type": "string", "format": "uri"}},
-    "tests": {
-      "type": "array", "minItems": 2,
-      "items": {"type": "object", "required": ["name", "fixtures", "expect"], "additionalProperties": false,
+    "title": {
+      "type": "string",
+      "minLength": 10
+    },
+    "status": {
+      "enum": [
+        "experimental",
+        "testing",
+        "stable"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "modified": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 40
+    },
+    "severity": {
+      "enum": [
+        "Informational",
+        "Low",
+        "Medium",
+        "High"
+      ]
+    },
+    "attack": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": [
+          "technique",
+          "tactic"
+        ],
+        "additionalProperties": false,
         "properties": {
-          "name": {"type": "string"},
-          "fixtures": {"type": "object", "additionalProperties": {"type": "string"}},
-          "expect": {"type": "object", "required": ["rows"], "additionalProperties": false,
-            "properties": {"rows": {"type": "integer", "minimum": 0},
-              "match": {"type": "array", "items": {"type": "object"}}}}
-        }}
+          "technique": {
+            "type": "string",
+            "pattern": "^T[0-9]{4}(\\.[0-9]{3})?$"
+          },
+          "tactic": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "data_sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "query": {
+      "type": "string",
+      "pattern": "\\.kql$"
+    },
+    "schedule": {
+      "type": "object",
+      "required": [
+        "frequency",
+        "lookback"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "frequency": {
+          "type": "string"
+        },
+        "lookback": {
+          "type": "string"
+        }
+      }
+    },
+    "tuning": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "false_positives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "triage": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "tests": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "fixtures",
+          "expect"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "fixtures": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "expect": {
+            "type": "object",
+            "required": [
+              "rows"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "rows": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "match": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "atlas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "technique",
+          "tactic"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "technique": {
+            "type": "string",
+            "pattern": "^AML\\.T[0-9]{4}(\\.[0-9]{3})?$"
+          },
+          "tactic": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

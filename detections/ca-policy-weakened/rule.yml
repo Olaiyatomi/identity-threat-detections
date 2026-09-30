@@ -1,0 +1,49 @@
+id: ITD-006
+title: Conditional Access policy deleted, disabled or set to report-only
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a Conditional Access policy that is deleted, or changed from enabled
+  to disabled or report-only. Conditional Access is where MFA, location and
+  device controls are enforced, so an attacker with admin rights can remove
+  those protections for everyone in one change and then sign in freely.
+severity: High
+attack:
+  - technique: T1556.009
+    tactic: defense-impairment
+data_sources:
+  - AuditLogs
+query: query.kql
+schedule:
+  frequency: 15m
+  lookback: 1d
+false_positives:
+  - Planned policy clean-up or consolidation by the identity team.
+  - Temporarily switching a policy to report-only to troubleshoot sign-in problems.
+triage:
+  - Was the change approved? Check change tickets and ask the admin directly through a known channel.
+  - What did the policy protect? MFA for all users, admin roles, or legacy authentication blocks are the most serious to lose.
+  - Review sign-ins that would have been blocked or challenged by the policy since the change.
+  - If unexpected, restore the policy, revoke the admin's sessions and review their other recent changes.
+references:
+  - https://attack.mitre.org/techniques/T1556/009/
+  - https://learn.microsoft.com/en-us/entra/identity/conditional-access/overview
+tests:
+  - name: deleted, disabled and report-only policies all fire
+    fixtures:
+      AuditLogs: tests/attack.json
+    expect:
+      rows: 3
+      match:
+        - PolicyName: Require MFA for all users
+          ChangeType: Deleted
+        - PolicyName: Block legacy authentication
+          ChangeType: Disabled
+        - PolicyName: Block sign-ins outside Canada
+          ChangeType: Report-only
+  - name: edits that keep it enabled, re-enabling, failed delete and old change stay quiet
+    fixtures:
+      AuditLogs: tests/benign.json
+    expect:
+      rows: 0

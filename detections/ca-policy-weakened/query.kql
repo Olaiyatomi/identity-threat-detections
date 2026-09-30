@@ -1,0 +1,37 @@
+// ITD-006 Conditional Access policy deleted, disabled or switched to report-only
+// ATT&CK T1556.009 Conditional Access Policies
+AuditLogs
+| where TimeGenerated >= ago(1d)
+| where Result =~ "success"
+| where OperationName in (
+    "Update conditional access policy",
+    "Delete conditional access policy"
+)
+| extend
+    InitiatedByWho = coalesce(
+        tostring(InitiatedBy.user.userPrincipalName),
+        tostring(InitiatedBy.app.displayName)
+    ),
+    PolicyName = tostring(TargetResources[0].displayName)
+| mv-expand ModifiedProperty = TargetResources[0].modifiedProperties
+| where tostring(ModifiedProperty.displayName) == "ConditionalAccessPolicy"
+| extend
+    OldState = tostring(parse_json(tostring(ModifiedProperty.oldValue)).state),
+    NewState = tostring(parse_json(tostring(ModifiedProperty.newValue)).state)
+| where OperationName == "Delete conditional access policy"
+    or (OldState == "enabled" and NewState != "enabled")
+| extend ChangeType = case(
+    OperationName == "Delete conditional access policy", "Deleted",
+    NewState == "disabled", "Disabled",
+    NewState == "enabledForReportingButNotEnforced", "Report-only",
+    "Other"
+)
+| project
+    TimeGenerated,
+    InitiatedByWho,
+    PolicyName,
+    ChangeType,
+    OldState,
+    NewState,
+    OperationName
+| order by TimeGenerated desc

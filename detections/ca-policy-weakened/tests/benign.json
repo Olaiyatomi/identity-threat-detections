@@ -1,0 +1,114 @@
+[
+ {
+  "TimeGenerated": "-4h",
+  "OperationName": "Update conditional access policy",
+  "Category": "Policy",
+  "Result": "success",
+  "LoggedByService": "Conditional Access",
+  "CorrelationId": "p-ok-1",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "Policy",
+    "displayName": "Require MFA for all users",
+    "id": "c0ffee00-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "ConditionalAccessPolicy",
+      "oldValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Require MFA for all users\", \"state\": \"enabled\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": []}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}",
+      "newValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Require MFA for all users\", \"state\": \"enabled\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": [\"breakglass@contoso.ca\"]}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-2h",
+  "OperationName": "Update conditional access policy",
+  "Category": "Policy",
+  "Result": "success",
+  "LoggedByService": "Conditional Access",
+  "CorrelationId": "p-ok-2",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "Policy",
+    "displayName": "Block legacy authentication",
+    "id": "c0ffee00-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "ConditionalAccessPolicy",
+      "oldValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Block legacy authentication\", \"state\": \"enabledForReportingButNotEnforced\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": []}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}",
+      "newValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Block legacy authentication\", \"state\": \"enabled\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": []}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-90m",
+  "OperationName": "Delete conditional access policy",
+  "Category": "Policy",
+  "Result": "failure",
+  "LoggedByService": "Conditional Access",
+  "CorrelationId": "p-ok-3",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "Policy",
+    "displayName": "Require MFA for all users",
+    "id": "c0ffee00-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "ConditionalAccessPolicy",
+      "oldValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Require MFA for all users\", \"state\": \"enabled\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": []}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}",
+      "newValue": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "TimeGenerated": "-3d",
+  "OperationName": "Delete conditional access policy",
+  "Category": "Policy",
+  "Result": "success",
+  "LoggedByService": "Conditional Access",
+  "CorrelationId": "p-ok-4",
+  "InitiatedBy": {
+   "user": {
+    "userPrincipalName": "it.admin@contoso.ca",
+    "ipAddress": "185.220.101.47"
+   }
+  },
+  "TargetResources": [
+   {
+    "type": "Policy",
+    "displayName": "Old test policy",
+    "id": "c0ffee00-1111-2222-3333-444455556666",
+    "modifiedProperties": [
+     {
+      "displayName": "ConditionalAccessPolicy",
+      "oldValue": "{\"id\": \"c0ffee00-1111-2222-3333-444455556666\", \"displayName\": \"Old test policy\", \"state\": \"enabled\", \"conditions\": {\"users\": {\"includeUsers\": [\"All\"], \"excludeUsers\": []}}, \"grantControls\": {\"operator\": \"OR\", \"builtInControls\": [\"mfa\"]}}",
+      "newValue": null
+     }
+    ]
+   }
+  ]
+ }
+]

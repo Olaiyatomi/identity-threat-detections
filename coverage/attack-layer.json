@@ -75,8 +75,8 @@
     {
       "techniqueID": "T1556.009",
       "tactic": "defense-impairment",
-      "score": 20,
-      "comment": "planned Conditional Access policy weakened or deleted (planned)",
+      "score": 60,
+      "comment": "ITD-006 Conditional Access policy deleted, disabled or set to report-only (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

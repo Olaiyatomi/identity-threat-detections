@@ -13,7 +13,7 @@ from common import ROOT, load_rules
 
 attack_data = json.loads((ROOT / "data" / "attack_index.json").read_text())
 attack = attack_data["techniques"]
-planned = yaml.safe_load((ROOT / "roadmap.yml").read_text())["planned"]
+planned = yaml.safe_load((ROOT / "roadmap.yml").read_text()).get("planned") or []
 
 STATUS_SCORE = {"stable": 100, "testing": 75, "experimental": 60, "planned": 20}
 cells = defaultdict(list)  # (technique, tactic) -> [(status, id, title)]

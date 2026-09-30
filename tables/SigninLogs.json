@@ -17,6 +17,7 @@
     "UserAgent": "string",
     "LocationDetails": "dynamic",
     "DeviceDetail": "dynamic",
-    "CorrelationId": "string"
+    "CorrelationId": "string",
+    "SessionId": "string"
   }
 }

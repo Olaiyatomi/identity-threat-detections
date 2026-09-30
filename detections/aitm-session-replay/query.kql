@@ -1,0 +1,28 @@
+// ITD-010 AiTM session token replay: one session used from two or more countries
+// ATT&CK T1539 Steal Web Session Cookie, T1550.001 Application Access Token
+union
+    (SigninLogs | extend LocationDetails = tostring(LocationDetails)),  // match the string type in the non-interactive table
+    AADNonInteractiveUserSignInLogs
+| where TimeGenerated >= ago(1d)
+| where ResultType == "0"
+| where isnotempty(SessionId)
+| extend Country = tostring(
+    parse_json(tostring(LocationDetails)).countryOrRegion
+)
+| summarize
+    CountryCount = dcount(Country),
+    Countries = make_set(Country),
+    IPs = make_set(IPAddress, 10),
+    FirstSeen = min(TimeGenerated),
+    LastSeen = max(TimeGenerated)
+    by SessionId, UserPrincipalName
+| where CountryCount >= 2
+| project
+    UserPrincipalName,
+    SessionId,
+    CountryCount,
+    Countries,
+    IPs,
+    FirstSeen,
+    LastSeen
+| order by LastSeen desc

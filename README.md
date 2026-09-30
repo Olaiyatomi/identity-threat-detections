@@ -26,6 +26,7 @@ test detections for that layer.
 | ITD-007 | [Inbox rule forwards mail out or hides it from the user](detections/inbox-rule-forward-hide/) | T1114.003 | experimental |
 | ITD-008 | [Device code sign-in by a user with no device code history](detections/device-code-phishing/) | T1566.002 | experimental |
 | ITD-009 | [New MFA method registered soon after a risky sign-in](detections/mfa-registered-after-risky-signin/) | T1098.005 | experimental |
+| ITD-010 | [AiTM session token replay across countries](detections/aitm-session-replay/) | T1539, T1550.001 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

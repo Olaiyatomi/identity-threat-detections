@@ -59,16 +59,16 @@
     {
       "techniqueID": "T1539",
       "tactic": "credential-access",
-      "score": 20,
-      "comment": "planned AiTM session token replay (same session, new IP or device) (planned)",
+      "score": 60,
+      "comment": "ITD-010 AiTM session token replay across countries (experimental)",
       "enabled": true,
       "showSubtechniques": false
     },
     {
       "techniqueID": "T1550.001",
       "tactic": "lateral-movement",
-      "score": 20,
-      "comment": "planned AiTM session token replay (same session, new IP or device) (planned)",
+      "score": 60,
+      "comment": "ITD-010 AiTM session token replay across countries (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

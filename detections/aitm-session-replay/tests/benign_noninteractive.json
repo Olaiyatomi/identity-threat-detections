@@ -1,0 +1,47 @@
+[
+ {
+  "TimeGenerated": "-4h30m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "174.88.12.9",
+  "SessionId": "3f9a1c2e-bbbb-4b5c-8d9e-00000000000b",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"CA\", \"city\": \"Ottawa\"}"
+ },
+ {
+  "TimeGenerated": "-4h",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "99.230.4.17",
+  "SessionId": "3f9a1c2e-bbbb-4b5c-8d9e-00000000000b",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"CA\", \"city\": \"Toronto\"}"
+ },
+ {
+  "TimeGenerated": "-2h50m",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "SessionId": "3f9a1c2e-dddd-4b5c-8d9e-00000000000d",
+  "ResultType": "50173",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"NL\", \"city\": \"Amsterdam\"}"
+ },
+ {
+  "TimeGenerated": "-5h",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "45.155.205.9",
+  "SessionId": "",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"NL\", \"city\": \"Amsterdam\"}"
+ },
+ {
+  "TimeGenerated": "-47h",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "SessionId": "3f9a1c2e-ffff-4b5c-8d9e-00000000000f",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"NL\", \"city\": \"Amsterdam\"}"
+ }
+]

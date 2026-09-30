@@ -1,0 +1,28 @@
+[
+ {
+  "TimeGenerated": "-2h",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "142.116.20.5",
+  "SessionId": "3f9a1c2e-aaaa-4b5c-8d9e-000000000001",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-3h",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.6",
+  "SessionId": "3f9a1c2e-bbbb-4b5c-8d9e-000000000002",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ }
+]

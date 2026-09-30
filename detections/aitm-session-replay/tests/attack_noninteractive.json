@@ -1,0 +1,29 @@
+[
+ {
+  "TimeGenerated": "-1h50m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "SessionId": "3f9a1c2e-aaaa-4b5c-8d9e-000000000001",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"NL\", \"city\": \"Amsterdam\"}"
+ },
+ {
+  "TimeGenerated": "-1h40m",
+  "UserPrincipalName": "alice@contoso.ca",
+  "IPAddress": "185.220.101.47",
+  "SessionId": "3f9a1c2e-aaaa-4b5c-8d9e-000000000001",
+  "ResultType": "0",
+  "AppDisplayName": "Microsoft Graph",
+  "LocationDetails": "{\"countryOrRegion\": \"NL\", \"city\": \"Amsterdam\"}"
+ },
+ {
+  "TimeGenerated": "-2h30m",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "174.88.12.9",
+  "SessionId": "3f9a1c2e-bbbb-4b5c-8d9e-000000000002",
+  "ResultType": "0",
+  "AppDisplayName": "Office 365 Exchange Online",
+  "LocationDetails": "{\"countryOrRegion\": \"CA\", \"city\": \"Ottawa\"}"
+ }
+]

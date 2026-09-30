@@ -1,0 +1,80 @@
+[
+ {
+  "TimeGenerated": "-5h",
+  "UserPrincipalName": "bob@contoso.ca",
+  "IPAddress": "142.116.20.6",
+  "SessionId": "3f9a1c2e-bbbb-4b5c-8d9e-00000000000b",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-20h",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "142.116.20.7",
+  "SessionId": "3f9a1c2e-cccc-4b5c-8d9e-0000000000c1",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-4h",
+  "UserPrincipalName": "carol@contoso.ca",
+  "IPAddress": "81.2.69.160",
+  "SessionId": "3f9a1c2e-cccc-4b5c-8d9e-0000000000c2",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "GB",
+   "city": "London"
+  }
+ },
+ {
+  "TimeGenerated": "-3h",
+  "UserPrincipalName": "dan@contoso.ca",
+  "IPAddress": "142.116.20.8",
+  "SessionId": "3f9a1c2e-dddd-4b5c-8d9e-00000000000d",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-6h",
+  "UserPrincipalName": "erin@contoso.ca",
+  "IPAddress": "142.116.20.9",
+  "SessionId": "",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ },
+ {
+  "TimeGenerated": "-2d",
+  "UserPrincipalName": "frank@contoso.ca",
+  "IPAddress": "142.116.21.1",
+  "SessionId": "3f9a1c2e-ffff-4b5c-8d9e-00000000000f",
+  "ResultType": "0",
+  "AppDisplayName": "OfficeHome",
+  "AuthenticationRequirement": "multiFactorAuthentication",
+  "LocationDetails": {
+   "countryOrRegion": "CA",
+   "city": "Ottawa"
+  }
+ }
+]

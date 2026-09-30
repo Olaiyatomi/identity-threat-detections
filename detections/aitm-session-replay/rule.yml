@@ -1,0 +1,57 @@
+id: ITD-010
+title: AiTM session token replay across countries
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a sign-in session (same SessionId) used successfully from two or more
+  countries across interactive and non-interactive sign-in logs. In
+  adversary-in-the-middle phishing, the victim completes MFA through a proxy
+  such as Evilginx, the proxy steals the session cookie, and the attacker
+  replays it from their own infrastructure. The session looks valid and
+  already MFA-satisfied, but it suddenly appears from somewhere else.
+severity: High
+attack:
+  - technique: T1539
+    tactic: credential-access
+  - technique: T1550.001
+    tactic: lateral-movement
+data_sources:
+  - SigninLogs
+  - AADNonInteractiveUserSignInLogs
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  CountryCount: "Countries, not IPs, because phones switch between Wi-Fi and cellular IPs inside one session all the time."
+false_positives:
+  - VPN users whose exit country changes mid-session.
+  - Travellers whose session continues across a border, for example on a flight with Wi-Fi.
+  - Sign-ins with missing location data, which count as an extra blank country.
+triage:
+  - Which country came first? The first interactive sign-in is usually the victim. Later non-interactive use from a hosting or VPN provider is usually the attacker.
+  - Check the first sign-in's URL referrer or app for a phishing proxy, and look for the lure email just before it.
+  - "Look at what the second location did: mailbox access, inbox rules, file downloads, MFA registration."
+  - Revoke the user's sessions and refresh tokens, reset the password and consider token protection or compliant-device Conditional Access.
+references:
+  - https://attack.mitre.org/techniques/T1539/
+  - https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-noninteractive-sign-ins
+tests:
+  - name: session started in Canada and replayed from the Netherlands fires, normal session does not
+    fixtures:
+      SigninLogs: tests/attack_interactive.json
+      AADNonInteractiveUserSignInLogs: tests/attack_noninteractive.json
+    expect:
+      rows: 1
+      match:
+        - UserPrincipalName: alice@contoso.ca
+          SessionId: 3f9a1c2e-aaaa-4b5c-8d9e-000000000001
+          CountryCount: 2
+          Countries: ["CA", "NL"]
+  - name: IP changes in one country, travel across sessions, failed replay, empty SessionId and old events stay quiet
+    fixtures:
+      SigninLogs: tests/benign_interactive.json
+      AADNonInteractiveUserSignInLogs: tests/benign_noninteractive.json
+    expect:
+      rows: 0

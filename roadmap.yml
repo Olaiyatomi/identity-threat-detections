@@ -1,7 +1,3 @@
 # Planned detections. tools/coverage.py shows these as "planned" on the ATT&CK map.
 # Move an entry into detections/ once it has a query, fixtures and passing tests.
-planned:
-  - title: AiTM session token replay (same session, new IP or device)
-    attack:
-      - {technique: T1539, tactic: credential-access}
-      - {technique: T1550.001, tactic: lateral-movement}
+planned: []

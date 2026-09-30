@@ -1,0 +1,17 @@
+{
+  "_note": "Subset of the Microsoft Sentinel AADNonInteractiveUserSignInLogs schema. Note: LocationDetails and DeviceDetail are strings here, not dynamic like in SigninLogs.",
+  "columns": {
+    "TimeGenerated": "datetime",
+    "UserPrincipalName": "string",
+    "UserId": "string",
+    "IPAddress": "string",
+    "AppDisplayName": "string",
+    "ResultType": "string",
+    "ResultDescription": "string",
+    "SessionId": "string",
+    "UserAgent": "string",
+    "LocationDetails": "string",
+    "DeviceDetail": "string",
+    "CorrelationId": "string"
+  }
+}

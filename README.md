@@ -23,6 +23,7 @@ test detections for that layer.
 | ITD-004 | [Privileged role assigned directly outside PIM](detections/priv-role-outside-pim/) | T1098.003 | experimental |
 | ITD-005 | [New secret or certificate added to an application](detections/app-credential-added/) | T1098.001 | experimental |
 | ITD-006 | [Conditional Access policy deleted, disabled or set to report-only](detections/ca-policy-weakened/) | T1556.009 | experimental |
+| ITD-007 | [Inbox rule forwards mail out or hides it from the user](detections/inbox-rule-forward-hide/) | T1114.003 | experimental |
 
 Planned work is in [roadmap.yml](roadmap.yml) and shows as pale cells on the coverage map.
 

@@ -1,0 +1,35 @@
+[
+ {
+  "TimeGenerated": "-5h",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "New-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "alice@contoso.ca",
+  "ClientIP": "185.220.101.47:51234",
+  "ResultStatus": "True",
+  "OfficeObjectId": "alice@contoso.ca",
+  "Parameters": "[{\"Name\": \"AlwaysDeleteOutlookRulesBlob\", \"Value\": \"False\"}, {\"Name\": \"Force\", \"Value\": \"False\"}, {\"Name\": \"Name\", \"Value\": \".\"}, {\"Name\": \"ForwardTo\", \"Value\": \"alice.backup@proton.me\"}, {\"Name\": \"StopProcessingRules\", \"Value\": \"True\"}]"
+ },
+ {
+  "TimeGenerated": "-3h",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "Set-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "bob@contoso.ca",
+  "ClientIP": "185.220.101.47:40111",
+  "ResultStatus": "True",
+  "OfficeObjectId": "bob@contoso.ca",
+  "Parameters": "[{\"Name\": \"Name\", \"Value\": \"..\"}, {\"Name\": \"SubjectOrBodyContainsWords\", \"Value\": \"invoice;payment;wire\"}, {\"Name\": \"MoveToFolder\", \"Value\": \"RSS Feeds\"}, {\"Name\": \"MarkAsRead\", \"Value\": \"True\"}]"
+ },
+ {
+  "TimeGenerated": "-1h",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "New-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "carol@contoso.ca",
+  "ClientIP": "45.155.205.9:3389",
+  "ResultStatus": "True",
+  "OfficeObjectId": "carol@contoso.ca",
+  "Parameters": "[{\"Name\": \"Name\", \"Value\": \"Clean up\"}, {\"Name\": \"From\", \"Value\": \"security@contoso.ca\"}, {\"Name\": \"DeleteMessage\", \"Value\": \"True\"}]"
+ }
+]

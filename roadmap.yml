@@ -11,6 +11,3 @@ planned:
   - title: New MFA method or device registered right after a risky sign-in
     attack:
       - {technique: T1098.005, tactic: persistence}
-  - title: Inbox rule that forwards or hides mail
-    attack:
-      - {technique: T1114.003, tactic: collection}

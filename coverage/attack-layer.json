@@ -43,8 +43,8 @@
     {
       "techniqueID": "T1114.003",
       "tactic": "collection",
-      "score": 20,
-      "comment": "planned Inbox rule that forwards or hides mail (planned)",
+      "score": 60,
+      "comment": "ITD-007 Inbox rule forwards mail out or hides it from the user (experimental)",
       "enabled": true,
       "showSubtechniques": true
     },

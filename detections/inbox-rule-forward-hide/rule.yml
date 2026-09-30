@@ -1,0 +1,53 @@
+id: ITD-007
+title: Inbox rule forwards mail out or hides it from the user
+status: experimental
+author: Tomi Olaiya
+created: 2026-09-29
+description: >
+  Flags a new or changed Exchange Online inbox rule that forwards or
+  redirects mail, deletes it, or moves it into folders people rarely check
+  (RSS Feeds, Conversation History, Archive). After a mailbox takeover,
+  attackers use these rules to keep reading mail after losing access and to
+  hide replies during invoice fraud or business email compromise.
+severity: Medium
+attack:
+  - technique: T1114.003
+    tactic: collection
+data_sources:
+  - OfficeActivity
+query: query.kql
+schedule:
+  frequency: 1h
+  lookback: 1d
+tuning:
+  MoveToFolder: "Add other low-visibility folder names seen in your tenant, or rule names made only of dots or single characters."
+false_positives:
+  - Users forwarding mail to a personal or shared address, where policy allows it.
+  - Legitimate clean-up rules that delete newsletters or automated notifications.
+triage:
+  - Is the forwarding address external? Is the rule name odd, like "." or ".."?
+  - Did the user sign in from the rule's ClientIP before? Check SigninLogs for that IP and the hour before the rule was made.
+  - Does the rule filter on words like invoice, payment, wire, password or security? That points to fraud.
+  - If malicious, remove the rule, reset the password, revoke sessions and search for mail sent from the account to external contacts.
+references:
+  - https://attack.mitre.org/techniques/T1114/003/
+  - https://learn.microsoft.com/en-us/defender-office-365/detect-and-remediate-outlook-rules-forms-attack
+tests:
+  - name: forward to external, move to RSS Feeds and delete security mail all fire
+    fixtures:
+      OfficeActivity: tests/attack.json
+    expect:
+      rows: 3
+      match:
+        - UserId: alice@contoso.ca
+          RuleName: "."
+          Reason: Forwards mail
+        - UserId: bob@contoso.ca
+          Reason: Moves mail to RSS Feeds
+        - UserId: carol@contoso.ca
+          Reason: Deletes mail
+  - name: normal folder rule, empty forward field, rule removal and old rule stay quiet
+    fixtures:
+      OfficeActivity: tests/benign.json
+    expect:
+      rows: 0

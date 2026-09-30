@@ -1,0 +1,37 @@
+// ITD-007 Inbox rule that forwards mail out or hides it from the user
+// ATT&CK T1114.003 Email Forwarding Rule
+OfficeActivity
+| where TimeGenerated >= ago(1d)
+| where Operation in ("New-InboxRule", "Set-InboxRule")
+| mv-expand Param = parse_json(Parameters)
+| extend
+    ParamName = tostring(Param.Name),
+    ParamValue = tostring(Param.Value)
+| summarize
+    RuleParams = make_bag(bag_pack(ParamName, ParamValue))
+    by TimeGenerated, UserId, ClientIP
+| where isnotempty(tostring(RuleParams.ForwardTo))
+    or isnotempty(tostring(RuleParams.RedirectTo))
+    or isnotempty(tostring(RuleParams.ForwardAsAttachmentTo))
+    or tostring(RuleParams.DeleteMessage) =~ "True"
+    or tostring(RuleParams.MoveToFolder) in~ (
+        "RSS Feeds",
+        "Conversation History",
+        "Archive"
+    )
+| extend Reason = case(
+    isnotempty(tostring(RuleParams.ForwardTo)), "Forwards mail",
+    isnotempty(tostring(RuleParams.RedirectTo)), "Redirects mail",
+    isnotempty(tostring(RuleParams.ForwardAsAttachmentTo)), "Forwards mail as attachment",
+    tostring(RuleParams.DeleteMessage) =~ "True", "Deletes mail",
+    tostring(RuleParams.MoveToFolder) in~ ("RSS Feeds", "Conversation History", "Archive"),
+        strcat("Moves mail to ", tostring(RuleParams.MoveToFolder)),
+    "Other"
+)
+| project
+    TimeGenerated,
+    UserId,
+    ClientIP,
+    RuleName = tostring(RuleParams.Name),
+    Reason
+| order by TimeGenerated desc

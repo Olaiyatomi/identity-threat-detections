@@ -1,0 +1,14 @@
+{
+  "_note": "Subset of the Microsoft Sentinel OfficeActivity schema (Exchange, SharePoint, Teams). Parameters is JSON text.",
+  "columns": {
+    "TimeGenerated": "datetime",
+    "RecordType": "string",
+    "Operation": "string",
+    "OfficeWorkload": "string",
+    "UserId": "string",
+    "ClientIP": "string",
+    "ResultStatus": "string",
+    "Parameters": "string",
+    "OfficeObjectId": "string"
+  }
+}

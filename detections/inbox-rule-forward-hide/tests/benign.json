@@ -1,0 +1,46 @@
+[
+ {
+  "TimeGenerated": "-4h",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "New-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "dan@contoso.ca",
+  "ClientIP": "142.116.20.5:50212",
+  "ResultStatus": "True",
+  "OfficeObjectId": "dan@contoso.ca",
+  "Parameters": "[{\"Name\": \"Name\", \"Value\": \"Newsletters\"}, {\"Name\": \"From\", \"Value\": \"news@vendor.example\"}, {\"Name\": \"MoveToFolder\", \"Value\": \"Newsletters\"}]"
+ },
+ {
+  "TimeGenerated": "-2h",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "New-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "erin@contoso.ca",
+  "ClientIP": "142.116.20.6:50999",
+  "ResultStatus": "True",
+  "OfficeObjectId": "erin@contoso.ca",
+  "Parameters": "[{\"Name\": \"Name\", \"Value\": \"Read receipts\"}, {\"Name\": \"SubjectContainsWords\", \"Value\": \"Read:\"}, {\"Name\": \"MarkAsRead\", \"Value\": \"True\"}, {\"Name\": \"ForwardTo\", \"Value\": \"\"}]"
+ },
+ {
+  "TimeGenerated": "-90m",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "Remove-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "frank@contoso.ca",
+  "ClientIP": "142.116.20.7:51000",
+  "ResultStatus": "True",
+  "OfficeObjectId": "frank@contoso.ca",
+  "Parameters": "[{\"Name\": \"Identity\", \"Value\": \"frank@contoso.ca\\\\Forward to home\"}, {\"Name\": \"ForwardTo\", \"Value\": \"frank@home.example\"}]"
+ },
+ {
+  "TimeGenerated": "-2d",
+  "RecordType": "ExchangeAdmin",
+  "Operation": "New-InboxRule",
+  "OfficeWorkload": "Exchange",
+  "UserId": "grace@contoso.ca",
+  "ClientIP": "185.220.101.47:52000",
+  "ResultStatus": "True",
+  "OfficeObjectId": "grace@contoso.ca",
+  "Parameters": "[{\"Name\": \"Name\", \"Value\": \".\"}, {\"Name\": \"ForwardTo\", \"Value\": \"grace.x@proton.me\"}]"
+ }
+]

@@ -88,7 +88,6 @@ which helps when a fixture does not load the way you expect.
 3. Build `tests/attack.json` from what the attack really produces, and
    `tests/benign.json` from the normal activity most likely to look like it.
 4. Run the validator and tests, then `python tools/coverage.py`.
-5. Write it up in `writeups/` using the template.
 
 ## Data
 
